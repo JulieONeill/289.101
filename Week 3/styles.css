@@ -1,0 +1,19 @@
+.red {
+    color:red;  
+}
+
+#box1 {
+    background-color: yellow;
+    height: 100px;
+    weidth: 200px;
+    border: 10px solid red;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+#box2 {
+    background-color: olive;
+    width: 100px;
+    height: 100px;
+    margin-top: 45px;
+}
