@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
-* { outline: 1px solid red; }
+  { outline: 1px solid red; }
 
 body {
     background-color: #82DDB5;
@@ -9,7 +9,7 @@ body {
     background-position: center 280px, left top;
     background-size: 800px, auto;
     font-family: 'Quicksand', sans-serif;
-    margin: 0;
+    margin: 0; 
 }
 
 #nav {
@@ -25,6 +25,7 @@ body {
 #header {
     text-align: center;
     margin-top: 40px;
+    padding-bottom: 340px;
 }
 
 #logo {
@@ -51,7 +52,7 @@ body {
 
 #what {
     background-color: rgba(200, 240, 220, 0.9);
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #what p {
@@ -59,24 +60,127 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color: rgba(52, 119, 136);
 }
 
 #what h1 {
     text-align: center;
     padding: 25px 0;
-    color: #386;
+    color: rgba(52, 119, 136);
 }
 #what h2 {
     text-align: center;
-    color: #386;
+    color: rgba(52, 119, 136);
+    padding-top: 15px
 }
 #sponsor_logos img{
-    max-width: 250px;
+    padding-left: 35px;
+    max-width: 250px;  
+}
+
+#why {
+    text-align: center;
+    background-color: rgba(166, 234, 204);
+    padding-top: 5px;
+    color: rgba(52, 119, 136);
+    padding-bottom: 30px;
+}
+
+#why p {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(52, 119, 136);
     
 }
 
+#where {
+    background-image: url('img/map.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 550px
+}
 
+#where h1{
+    text-align: center;
+    color: rgba(187,68,136);
+}
 
+#where p {
+    text-align: right;
+    color: rgba(187,68,136);
+    padding-right: 350px;
+    font-weight: bold;
+}
+
+#when {
+    background-color: rgba(67,153,152);
+    background-image: url('img/wires.png');
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: 500px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#when h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#when h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px dashed #fff;
+}
+ 
+#when h3{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1.5px dashed #fff;
+}
+
+#when ul li {
+    text-align: left;
+    color: #fff;
+    list-style-position: inside;
+    padding-left: 100px;
+}
+#who {
+    background-color: rgba(245,245,241);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#who h1 {
+    text-align: center;
+    color: rgba(52, 119, 136);
+}
+
+#who p {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(52, 119, 136);
+}
+
+#footer  {
+    width: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px
+    
+}
+
+  
 
 
 
