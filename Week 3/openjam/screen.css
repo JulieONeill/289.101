@@ -60,17 +60,17 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: rgba(52, 119, 136);
+    color: rgb(52, 119, 136);
 }
 
 #what h1 {
     text-align: center;
     padding: 25px 0;
-    color: rgba(52, 119, 136);
+    color: rgb(52, 119, 136);
 }
 #what h2 {
     text-align: center;
-    color: rgba(52, 119, 136);
+    color: rgb(52, 119, 136);
     padding-top: 15px
 }
 #sponsor_logos img{
@@ -82,7 +82,7 @@ body {
     text-align: center;
     background-color: rgba(166, 234, 204);
     padding-top: 5px;
-    color: rgba(52, 119, 136);
+    color: rgb(52, 119, 136);
     padding-bottom: 30px;
 }
 
@@ -92,7 +92,7 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: rgba(52, 119, 136);
+    color: rgb(52, 119, 136);
     
 }
 
@@ -106,18 +106,18 @@ body {
 
 #where h1{
     text-align: center;
-    color: rgba(187,68,136);
+    color: rgb(187,68,136);
 }
 
 #where p {
     text-align: right;
-    color: rgba(187,68,136);
+    color: rgb(187,68,136);
     padding-right: 350px;
     font-weight: bold;
 }
 
 #when {
-    background-color: rgba(67,153,152);
+    background-color: rgb(67,153,152);
     background-image: url('img/wires.png');
     background-repeat: repeat;
     background-position: bottom;
@@ -153,14 +153,14 @@ body {
     padding-left: 100px;
 }
 #who {
-    background-color: rgba(245,245,241);
+    background-color: rgb(245,245,241);
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
 #who h1 {
     text-align: center;
-    color: rgba(52, 119, 136);
+    color: rgb(52, 119, 136);
 }
 
 #who p {
