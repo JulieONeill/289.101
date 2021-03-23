@@ -1,10 +1,9 @@
 * {
-    outline: 1px dotted line;
+    outline: 5px dotted line;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
-
-    
+ 
 body {
     background-color: #f2f2f2;
     margin: 0 0 0 0;
@@ -66,7 +65,7 @@ body {
 }
 
 #our-services {
-    background-color: red;
+    background-color: f2f2f2;
     height: 500px;
     padding-top: 40px;
     padding-left: 40px;
@@ -75,14 +74,77 @@ body {
 
 #our-services .heading {
     color: #666d89;
-    line-height: 90px;
     font-size: 30px;
     font-weight: bold;
+    padding-top: 40px;
 }
 
 #our-services .sub-heading {
-    color: orange;
+    color: #666d89;
     line-height: 22pt;
     font-size: 18px;
     font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+#blue-row-1 {
+    background-color: lightyellow;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+   
+}
+
+#blue-row-1 .blue-heading {
+    color: red;
+    font-size: 20px;
+}
+#blue-row-1 .blue-heading .blue-sub-heading {
+    color: red;
+    font-size: 10px;
+}
+
+#blue-row-2 {
+    background-color: lightgreen;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+    
+}
+
+#blue-row-2 .blue-heading {
+    color: red;
+    font-size: 20px;
+}
+#blue-row-2 .blue-heading .blue-sub-heading {
+    color: purple;
+    font-size: 10px;
+}
+
+#blue-row-3 {
+    background-color: lightgreen;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+   
+}
+
+#blue-row-3 .blue-heading {
+    color: yellow;
+    font-size: 15px;
+    
+}
+#blue-row-4 {
+    background-color: lightcyan;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+    
+}
+
+#blue-row-4 .blue-sub-heading {
+    color: purple;
+    font-size: 15px; 
+    font-weight: lighter;
+    line-height: 15pt;
 }
