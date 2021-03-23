@@ -121,11 +121,13 @@ body {
     color: #666d89;
     text-align: left;
     font-size: 20px;
+    font-weight: bold;
     text-align: justify; 
 }
 
 #blue-row-2 .blue-heading .blue-sub-heading {
     font-size: 12px;
+    font-weight: lighter;
     line-height: 16pt;
     padding-top: 10px;
     padding-right: 20px;
