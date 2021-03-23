@@ -71,16 +71,17 @@ body {
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    border-bottom: 6px solid #fff;
 }
 
-#our-services .heading {
+#our-services .services-heading {
     color: #666d89;
     font-size: 30px;
     font-weight: bold;
     padding-top: 40px;
 }
 
-#our-services .sub-heading {
+#our-services .services-sub-heading {
     color: #666d89;
     line-height: 22pt;
     font-size: 18px;
@@ -102,7 +103,7 @@ body {
     text-align: justify; 
 }
 
-#blue-row-1 .blue-heading .blue-sub-heading {
+#blue-row-1 .blue-sub-heading {
     color: #666d89;
     font-weight: lighter;
     font-size: 12px;
@@ -125,10 +126,49 @@ body {
     text-align: justify; 
 }
 
-#blue-row-2 .blue-heading .blue-sub-heading {
+#blue-row-2 .blue-sub-heading {
     font-size: 12px;
     font-weight: lighter;
     line-height: 16pt;
     padding-top: 10px;
     padding-right: 20px;
+}
+
+#portfolio {
+    background-color: bisque;
+    height: 500px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 6px solid #fff;
+}
+
+#portfolio .portfolio-heading {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+#portfolio .portfolio-sub-heading {
+    color: blue;
+    line-height: 22pt;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+#portfolio .portfolio-links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: left;
+    color: hotpink;
+}
+
+
+
+#portfolio .portfolio-links a {
+    color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
