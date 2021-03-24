@@ -68,10 +68,11 @@ body {
 
 #our-services {
     background-color: f2f2f2;
-    height: 520px;
+    height: auto;
     padding-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 70px;
     border-bottom: 6px solid #fff;
 }
 
@@ -79,7 +80,7 @@ body {
     color: #666d89;
     font-size: 22pt;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #our-services .services-sub-heading {
@@ -137,10 +138,11 @@ body {
 
 #portfolio {
     background-color: #2d2f3b;
-    height: 980px;
+    height: auto;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 70px;
     border-bottom: 6px solid #313745;
 }
 
@@ -148,7 +150,7 @@ body {
     color: #666d89;
     font-size: 22pt;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #portfolio .portfolio-sub-heading {
@@ -188,22 +190,25 @@ body {
 #p-image {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 57px;
+    grid-gap: 18px;
     padding-top: 20px;
     grid-column-gap: 20px;
+
 }
 
 #p-image .art {
-    width: 100%; 
-    height: 120%;
+    width: 100%;
+    height: auto%;
+
 }
 
 #about {
     background-color: #f2f2f2;
-    height: 750px;
+    height: auto;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 70px;
     border-bottom: 6px solid #fff;
 }
 
@@ -254,8 +259,8 @@ body {
 }
 
 #about-image .portrait {
-    width: 100%; 
-    height: 120%;
+    width: 100%;
+    height: auto%;
 }
 
 #about-media .media {
