@@ -229,7 +229,7 @@ body {
 #about-image {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 57px;
+    grid-gap: 5px;
     text-align: center;
     padding-top: 20px;
     grid-column-gap: 20px;
