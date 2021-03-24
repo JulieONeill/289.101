@@ -218,6 +218,7 @@ body {
     font-weight: bold;
     padding-top: 40px;
 }
+
 #about .about-sub-heading-1 {
     color: #666d89;
     line-height: 22pt;
@@ -241,6 +242,7 @@ body {
     font-weight: bold;
     padding-top: 20px;
 }
+
 #about .about-sub-heading-2 {
     color: #666d89;
     line-height: 17pt;
@@ -283,12 +285,14 @@ body {
     font-weight: bold;
     padding-top: 40px;
 }
+
 #quote .quote-sub-heading {
     color: #eed9d8;
     line-height: 22pt;
     font-size: 13pt;
     font-weight: lighter;
 }
+
 #quote-grid {
     display: grid;
     grid-template-columns: 2fr 1fr ;
