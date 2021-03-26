@@ -88,3 +88,9 @@ body {
     text-decoration: none;
     font-size: 12px;
 }
+
+#work {
+    background-color: navy;
+    height:300px;
+}
+
