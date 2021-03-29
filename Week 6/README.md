@@ -1,6 +1,0 @@
-# juileoneill
-=======
-
----
-permalink: /index.html
----
