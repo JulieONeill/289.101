@@ -193,13 +193,8 @@ body {
     grid-gap: 18px;
     padding-top: 20px;
     grid-column-gap: 20px;
-
-}
-
-#p-image .art {
     width: 100%;
-    height: auto%;
-
+    height: auto;
 }
 
 #about {
