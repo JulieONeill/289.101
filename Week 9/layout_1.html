@@ -1,56 +1,72 @@
 <!DOCTYPE html>
+
 <html>
     
+    
 <head>
-    
+
     <meta charset="utf-8" />
-    
+
     <title>Layout 1</title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
     
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-   
     <style>
-        * { outline: white 8px solid }
-        .blue {
-        background-color: #3FB4FF;
-        height: 50px;
-        }
+    * { outline: white 8px solid }
         
-        /* xs devices */
-        body { background-color: red }
+    .blue {
+    background-color: #3FB4FF;
+    height: 50px;
+    }
+    
+    .green {
+    background-color: #3FB4FF;
+    height: 100px;
+    }
         
-        /* sm devices */
-        @media (min-width: 576px) {
-        body { background-color: orange }
-        }
+    /* xs devices */
+    body { background-color: red }
         
-        /* md devices */
-        @media (min-width: 768px) {
-        body { background-color: yellow }
-        }
+    /* sm devices */
+    @media (min-width: 576px) {
+    body { background-color: orange }
+    }
         
-        /* lg devices */
-        @media (min-width: 992px) {
-        body { background-color: green }
-        }
+    /* md devices */
+    @media (min-width: 768px) {
+    body { background-color: yellow }
+    }
         
-        /* xl devices */
-        @media (min-width: 1200px) {
-        body { background-color: blue 
-            
+    /* lg devices */
+    @media (min-width: 992px) {
+    body { background-color: green }
+    }
+        
+    /* xl devices */
+    @media (min-width: 1200px) {
+    body { background-color: blue}
+    }
+
     </style>
     
 </head>
+    
 <body>
     
     <div class="container">
         <div class="row">
-        <div class="col-lg-6 blue"></div>
-        <div class="col-lg-6 blue"></div>
+            <div class="col-lg-6 blue"></div>
+            <div class="col-lg-6 blue"></div>
         </div>
+        
+        <div class="row">
+            <div class="col-sm-4 green"></div>
+        </div>
+        
     </div>
     
 </body>
-</html>
+    
+</html
