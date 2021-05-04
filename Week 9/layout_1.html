@@ -33,7 +33,7 @@
     
     .grey {
     background-color: #c4c4c4;
-    height: 150px;
+    height: 75px;
     } 
         
     /* xs devices */
@@ -61,6 +61,20 @@
     /* lg devices */
     @media (min-width: 992px) {
     body { background-color: green }
+        .green {
+            background-color: #a6d800;
+            height: 250px;
+        }
+
+        .orange {
+        background-color: #ffae2e;
+        height: 250px;
+        }
+        
+        .grey {
+        background-color: #c4c4c4;
+        height: 200px;
+        } 
     }
         
     /* xl devices */
@@ -85,18 +99,24 @@
         </div>
         
         <div class="row">
-            <div class="col-sm-12 orange"></div>
-            <div class="col-sm-12 orange"></div>
-            <div class="col-sm-12 orange"></div>
+            <div class="col-sm-12 col-lg-4 orange"></div>
+            <div class="col-sm-12 col-lg-4 orange"></div>
+            <div class="col-sm-12 col-lg-4 orange"></div>
         </div>
-        
-    
         
          <div class="row">
-            <div class=" d-none d-sm-none d-md-block grey"></div>
-             <div class=" d-none d-sm-none d-md-block grey"></div>
-             <div class=" d-none d-sm-none d-md-block grey"></div>
+            <div class=" d-none d-sm-none d-md-block col-md-6 col-lg-3 grey"></div>
+            <div class=" d-none d-sm-none d-md-block col-md-6 col-lg-3 grey"></div>
+             <div class=" d-none d-sm-none d-md-none d-lg-block col-lg-3 grey"></div>
+            <div class=" d-none d-sm-none d-md-none d-lg-block col-lg-3 grey"></div>
         </div>
+        
+        <div class="row">
+            <div class=" d-none d-sm-none d-md-block col-md-6 d-lg-none grey"></div>
+            <div class=" d-none d-sm-none d-md-block col-md-6 d-lg-none grey"></div>
+        </div>
+        
+        
     </div>
     
 </body>
