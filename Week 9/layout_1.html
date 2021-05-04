@@ -22,9 +22,19 @@
     }
     
     .green {
-    background-color: #3FB4FF;
-    height: 100px;
+    background-color: #a6d800;
+    height: 150px;
     }
+        
+    .orange {
+    background-color: #ffae2e;
+    height: 300px;
+    }
+    
+    .grey {
+    background-color: #c4c4c4;
+    height: 150px;
+    } 
         
     /* xs devices */
     body { background-color: red }
@@ -37,6 +47,15 @@
     /* md devices */
     @media (min-width: 768px) {
     body { background-color: yellow }
+        .green {
+        background-color: #a6d800;
+        height: 200px;
+        }
+
+        .orange {
+        background-color: #ffae2e;
+        height: 150px;
+        } 
     }
         
     /* lg devices */
@@ -57,14 +76,27 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 blue"></div>
-            <div class="col-lg-6 blue"></div>
+            <div class="col-sm-12 col-lg-6 blue"></div>
+            <div class="col-sm-12 col-lg-6 blue"></div>
         </div>
         
         <div class="row">
-            <div class="col-sm-4 green"></div>
+            <div class="col-sm-12 green"></div>
         </div>
         
+        <div class="row">
+            <div class="col-sm-12 orange"></div>
+            <div class="col-sm-12 orange"></div>
+            <div class="col-sm-12 orange"></div>
+        </div>
+        
+    
+        
+         <div class="row">
+            <div class=" d-none d-sm-none d-md-block grey"></div>
+             <div class=" d-none d-sm-none d-md-block grey"></div>
+             <div class=" d-none d-sm-none d-md-block grey"></div>
+        </div>
     </div>
     
 </body>
