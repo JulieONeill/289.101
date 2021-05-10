@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Event Listeners Example</title>
+    
+</head>
+    
+<body>
+
+    <div id="hello_btn">
+        say hello
+    </div>
+
+    <script>
+        var x = 1;
+
+        var helloButton=document.getElementById(hello_btn)
+        
+        document.getElementById('hello_btn').addEventListener('click', () => {
+        alert('hello');
+            /*document.getElementById('hello_btn'*/ hello_btn.style.color='yellow';
+            /*document.getElementById('hello_btn')*/ hello_btn.style.backgroundColor='orange';
+            console.log(x);
+            x ++;
+
+        });
+    </script>
+
+</body>
+
+</html>
