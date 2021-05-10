@@ -51,8 +51,8 @@
 
     <div id="controls">
         <button id="eyes_up_btn">move eyes up</button>
-        <button>move eyes down</button>
-        <button>move eyes closer together</button>
+        <button id="eyes_down_btn">move eyes down</button>
+        <button id="move_eyes_together_btn">move eyes closer together</button>
         <button>move eyes further apart</button>
         <button>hollow eyes</button>
         <button>solid eyes</button>
@@ -90,6 +90,14 @@
             eye_right_y -= 10;
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
+        
+        document.getElementById('eyes_down_btn').addEventListener('click', () => {
+            eye_left_y += 10;
+            document.getElementById('eye_left').style.top = eye_left_y + 'px';
+            eye_right_y += 10;
+            document.getElementById('eye_right').style.top = eye_right_y + 'px';
+        });
+        
     </script>
 
 </body>
