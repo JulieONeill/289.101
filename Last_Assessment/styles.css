@@ -103,7 +103,8 @@
     .blue {
     background-color: #3FB4FF;
     height: 100px;
-    padding-left: 30px;    
+    padding-left: 30px;  
+    padding-top: 100
     }
 
     .orange {
@@ -113,10 +114,14 @@
 
     .grey {
     background-color: #c4c4c4;
-    height: 250px;
+    height: 500px;
     } 
 
     .wine {
     background-color: #af3552;
     height: 350px;
     }
+ /* BOX RULES END */
+
+
+ /* NEW RULE START */
