@@ -1,7 +1,85 @@
+/**{ outline: white 8px solid }*/
+
+/* MEDIA RULES BEGIN */
+    /* xs devices */
+    body { background-color: red }
+
+    /* sm devices */
+    @media (min-width: 576px) {
+        body { background-color: orange }
+    }
+
+    /* md devices */
+    @media (min-width: 768px) {
+        body { background-color: yellow }    
+        .grey {
+        background-color: #c4c4c4;
+        height: 180px;
+        }
+        .green {
+        background-color: #a6d800;
+        height: 300px;
+        }
+        .wine {
+        background-color: #af3552;
+        height: auto;
+        }
+    }
+
+    /* lg devices */
+    @media (min-width: 992px) {
+        body { background-color: green }
+        .blue {
+        background-color: #3FB4FF;
+        height: 70px;
+        }
+        .grey {
+        background-color: #c4c4c4;
+        height: 160px;
+        }
+        .green {
+        background-color: #a6d800;
+        height: auto;
+        }
+        .pink {
+        background-color: #ec8fef;
+        height: auto;
+        }
+    }
+
+    /* xl devices */
+    @media (min-width: 1200px) {
+        body { background-color: blue}
+    }
+ /* MEDIA RULES END */   
+
+
 .topnav {
-    overflow: hidden;
+        overflow: hidden;
     background-color: #333;
     position: relative;
+}
+
+
+.blue {
+background-color: #3FB4FF;
+height: 100px;
+    margin-left: 15px;
+}
+
+.orange {
+background-color: #ffae2e;
+height: auto;
+} 
+
+.grey {
+background-color: #c4c4c4;
+height: 250px;
+} 
+
+.wine {
+background-color: #af3552;
+height: 350px;
 }
 
 .topnav #myLinks {
@@ -12,7 +90,7 @@
     color: pink;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     display: block;
 }
 
