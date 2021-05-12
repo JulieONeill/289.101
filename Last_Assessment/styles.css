@@ -1,0 +1,16 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0 0 0 0;
+    font-family:"Lato", sans-serif;
+}
+
+.background-img1 {
+    background-image: url(Components/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 15px;
+}
