@@ -17,10 +17,8 @@
 }
 
 .topnav a.icon {
-    background: yellow;
+    background: blue;
     display: block;
-    margin-top: 10px;
-    margin-right: 10px;
     position: absolute;
     right: 0;
     top: 0;
