@@ -1,16 +1,37 @@
-body {
-    background-color: #f2f2f2;
-    margin: 0 0 0 0;
-    font-family:"Lato", sans-serif;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
 }
 
-.background-img1 {
-    background-image: url(Components/1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    height: 100vh;
-    background-size: cover;
-    padding-top: 15px;
-    padding-left: 15px;
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: pink;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: yellow;
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: orange;
+}
+
+.active {
+    background-color: blue;
+    color: yellow;
 }
