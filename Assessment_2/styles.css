@@ -1,71 +1,11 @@
-/* MEDIA RULES STARTS */
-/* xs devices */
-body { background-color: red}
-
-/* sm devices */
-@media (min-width: 576px) {
-body { background-color: orange } 
-}
-
-/* md devices */
-@media (min-width: 768px) {
-body { background-color: yellow }    
-.IntroText {
-    background-color: pink;
-    height: 180px;
-}
-grey {
-    background-color: #c4c4c4;
-    height: 180px;
-}
-.green {
-    background-color: #a6d800;
-    height: 300px;
-}
-.wine {
-    background-color: #af3552;
-    height: auto;
-}
-}
-
-/* lg devices */
-@media (min-width: 992px) {
-body { background-color: green } 
-.PageTitle {
-    background-color: red;
-    height: 70px;
-}   
-blue {
-    background-color: #3FB4FF;
-    height: 70px;
-}
-.IntroText {
-    background-color: pink;
-    height: 160px;
-}
-.grey {
-    background-color: #c4c4c4;
-    height: 160px;
-}
-.green {
-    background-color: #a6d800;
-    height: auto;
-}
-.pink {
-    background-color: #ec8fef;
-    height: auto;
-}
-}
-
-/* xl devices */
-@media (min-width: 1200px) {
-body { background-color: blue}
-}
-/* MEDIA RULES ENDS */   
 
 
+/* NAVIGATION MOBILE STARTS */
+.CoucouLogo {
+    margin-top: -2px;
+    width: 118px;
+}
 
-/* NAVIGATION BURGER STARTS */
 .topnav {
     overflow: hidden;
     background-color: darkblue;
@@ -87,7 +27,7 @@ body { background-color: blue}
 .topnav a.icon {
     background: darkblue;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
     position: absolute;
     right: 0;
@@ -103,7 +43,7 @@ body { background-color: blue}
     background-color: darkblue;
     color: white;
 }
-/* NAVIGATION BURGER ENDS */
+/* NAVIGATION MOVBILE ENDS */
 
 
 
@@ -159,9 +99,18 @@ blue {
     height: auto;
 } 
 
-.wine {
-    background-color: #af3552;
+.SiteMap {
+    background-color: #8c0034;
     height: 350px;
+}
+
+.copyright {
+    background-color: darkblue;
+    padding-top: 3px;
+    text-align: right;
+    height: 20px;
+    color:white;
+    font-size: 6pt;
 }
  /* BOX RULES ENDS */
 
@@ -182,6 +131,6 @@ blue {
 }
 
 .PictureMobile {
-    max-width: 475px;
+    max-width: 100%;
 }
  /* MOBILE PICTURE RULE ENDS */

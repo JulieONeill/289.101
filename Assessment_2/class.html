@@ -25,6 +25,33 @@
   
     <style>
         { outline: white 8px solid }
+        
+    /* MEDIA RULES SARTS */
+    /* xs devices */
+    body { background-color: red}
+
+    /* sm devices */
+    @media (min-width: 576px) {
+    body { background-color: orange } 
+    }
+
+    /* md devices */
+    @media (min-width: 768px) {
+    body { background-color: yellow }    
+    }
+ 
+
+    /* lg devices */
+    @media (min-width: 992px) {
+    body { background-color: green } 
+    }
+
+    /* xl devices */
+    @media (min-width: 1200px) {
+    body { background-color: blue}
+    }
+    /* MEDIA RULES ENDS */   
+
     </style>
     
     <script>
@@ -61,7 +88,7 @@
         
         <div class="col-sm-12 d-md-none d-lg-none d-xl-none mobile-container">
             <div class="topnav">
-                <a href="index.html" class="active">Logo</a>
+                <a href="index.html" class="active"><img class="CoucouLogo" src="LogoDesign/Coucou.png"></a>
                 <div id="myLinks">
                     <a href="class.html">Classes</a>
                     <a href="event.html">Events</a>
@@ -77,28 +104,27 @@
     </div>
 
     <div class="row">
-        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3 green"></div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6 orange">
+        <div class="col-sm-12 col-md-12 col-lg-12 orange">
             <div class="row">
-                <div class="col-12 col-xs-2 col-md-6 col-lg-4 IntroText">Intro text - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. Nullam fringilla magna ut luctus commodo. Integer porta feugiat accumsan.
+                <div class="col-12 col-xs-12 d-md-none IntroText">Adult Classes - ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. Nullam fringilla magna ut luctus commodo. Integer porta feugiat accumsan.
                 </div>
-                <div class="col-12 col-xs-2 col-md-6 d-lg-none grey">
+                <div class="col-12 col-xs-2 d-md-none grey">
                     <img class="PictureMobile" src="Photos/1.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Adults</a>
                     </div>
-                </div>   
+                </div>
+                <div class="col-12 col-xs-2 col-md-6 d-md-none IntroText">Kids and Teens Classes - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. Nullam fringilla magna ut luctus commodo. Integer porta feugiat accumsan.
+                </div>
+                
             </div>
         </div>
     </div>
 
-        <div class="row">
-        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3 green"></div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6 orange">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 orange">
             <div class="row">
-                <div class="col-12 col-xs-2 col-md-6 d-lg-none grey">
+                <div class="col-12 col-xs-2 d-md-none grey">
                     <img class="PictureMobile" src="Photos/3.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Kids and Teens</a>
@@ -106,16 +132,14 @@
                 </div>   
             </div>
         </div>
-    </div>
-    
-            
-    
-    <div class="d-none d-sm-none d-md-block col-md-6 d-lg-none wine"></div>
-     <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3 wine"></div>   
-    
+        </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-12 d-md-none wine"></div>
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 SiteMap"></div>
     </div>
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>
+    </div>
+        
  </div>   
 </body>
     
