@@ -58,18 +58,16 @@
     background-color: red;
     height: 100px;
     padding-left: 30px;  
-    padding-top: 100
+    padding-top: 100;
 }
 
 .PageTitle {
     font-size: 40pt;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 100px;
     background-color: #fffef6;
-    height: 100px;
-    padding-left: 30px;  
-    padding-top: 100
+    height: 140px;
+    padding-left: 30px; 
 }
 
 blue {
@@ -88,20 +86,24 @@ blue {
 } 
 
 .IntroText {
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 230px;
     background-color: #fffef6;
-    height: auto;
+    height: 260px;
 } 
 
 .grey {
     padding-bottom: 50px;
     background-color: #fffef6;
-    height: auto;
+    height: 250px;
 } 
 
 .SiteMap {
+    text-align: center;
     background-color: #8c0034;
-    height: 350px;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .copyright {
