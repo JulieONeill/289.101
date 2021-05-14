@@ -1,0 +1,171 @@
+/* MEDIA RULES STARTS */
+/* xs devices */
+body { background-color: red}
+
+/* sm devices */
+@media (min-width: 576px) {
+body { background-color: orange } 
+}
+
+/* md devices */
+@media (min-width: 768px) {
+body { background-color: yellow }    
+.IntroText {
+    background-color: pink;
+    height: 180px;
+}
+grey {
+    background-color: #c4c4c4;
+    height: 180px;
+}
+.green {
+    background-color: #a6d800;
+    height: 300px;
+}
+.wine {
+    background-color: #af3552;
+    height: auto;
+}
+}
+
+/* lg devices */
+@media (min-width: 992px) {
+body { background-color: green } 
+.blue {
+    background-color: #3FB4FF;
+    height: 70px;
+}
+.IntroText {
+    background-color: pink;
+    height: 160px;
+}
+.grey {
+    background-color: #c4c4c4;
+    height: 160px;
+}
+.green {
+    background-color: #a6d800;
+    height: auto;
+}
+.pink {
+    background-color: #ec8fef;
+    height: auto;
+}
+}
+
+/* xl devices */
+@media (min-width: 1200px) {
+body { background-color: blue}
+}
+/* MEDIA RULES ENDS */   
+
+
+
+/* NAVIGATION BURGER STARTS */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: pink;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: blue;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: orange;
+}
+
+.active {
+    background-color: blue;
+    color: yellow;
+}
+/* NAVIGATION BURGER ENDS */
+
+
+
+/* BOX RULES STARTS */
+.mobile-container {
+    background-color: yellow;
+    height: auto;
+}
+
+.Navigation {
+    padding: 0px;
+    background-color: #3FB4FF;
+    height: 100px;
+    padding-left: 30px;  
+    padding-top: 100
+}
+
+.blue {
+    padding: 0px;
+    background-color: #3FB4FF;
+    height: 100px;
+    padding-left: 30px;  
+    padding-top: 100
+}
+
+.orange {
+    background-color: #ffae2e;
+    height: auto;
+} 
+
+.IntroText {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: pink;
+    height: auto;
+} 
+
+.grey {
+    background-color: #c4c4c4;
+    height: 500px;
+} 
+
+.wine {
+    background-color: #af3552;
+    height: 350px;
+}
+ /* BOX RULES ENDS */
+
+
+ /* MOBILE PICTURE RULE STARTS */
+.card {
+    width: 270px;
+    height: 400px;
+    padding: 5px;
+}
+.text-color {
+    font-size: 20pt;
+    Color: #000;
+    text-decoration: none; 
+}
+
+.PictureMobile {
+    max-width: 470px;
+        }
+  
+.container {
+    margin-top: 50px;
+    width: 600px;
+    height: auto;
+}
+ /* MOBILE PICTURE RULE ENDS */
