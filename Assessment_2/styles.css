@@ -68,7 +68,7 @@
     padding-left: 30px; 
 }
 
-blue {
+.blue {
     font-size: 20pt;
     text-align: center;
     padding-top: 50px;
@@ -84,23 +84,23 @@ blue {
 } 
 
 .IntroText {
-    padding-top: 20px;
-    padding-bottom: 230px;
     background-color: #fffef6;
     height: 260px;
+    font-size: 11spt;
+    padding-bottom: 50px;
 }
 
 .IntroText2 {
     padding-bottom: 230px;
     background-color: #fffef6;
-    height: 300px;
+    height: 320px;
     font-size: 11pt;
 } 
 
-.grey {
-    padding-bottom: 50px;
+.PictureBox {
+    padding-bottom: 15px;
     background-color: #fffef6;
-    height: 250px;
+    height: auto;
 } 
 
 .NavHeader {
@@ -134,7 +134,7 @@ blue {
 
 
 
- /* MOBILE PICTURE RULE STARTS */
+/* PICTURE RULES STARTS */
 .card-img-overlay{
     margin-left: 10px;
 }
@@ -146,25 +146,21 @@ blue {
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .PictureMobile {
     max-width: 100%;
 }
 
-.PictureMobile2 {
+.PictureTablet {
     max-width: 120%;
 }
- /* MOBILE PICTURE RULE ENDS */
 
-
-
- /* TABLET PICTURE RULE STARTS */
-.PictureMobile2 {
-    max-width: 120%;
+.PictureLG {
+    max-width: 100%;
 }
- /* TABLET PICTURE RULE ENDS */
+/* PICTURE RULES STARTS */
 
 
 
