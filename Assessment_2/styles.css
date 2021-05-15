@@ -88,6 +88,13 @@ blue {
     padding-bottom: 230px;
     background-color: #fffef6;
     height: 260px;
+}
+
+.IntroText2 {
+    padding-bottom: 230px;
+    background-color: #fffef6;
+    height: 300px;
+    font-size: 11pt;
 } 
 
 .grey {
@@ -95,13 +102,6 @@ blue {
     background-color: #fffef6;
     height: 250px;
 } 
-
-.SiteMap {
-    text-align: center;
-    background-color: #8c0034;
-    height: auto;
-    padding-top: 40px;
-}
 
 .NavHeader {
     color: white;
@@ -113,6 +113,13 @@ blue {
     font-size: 11pt; 
     color: white;
     text-align: left
+}
+
+.SiteMap {
+    text-align: center;
+    background-color: #8c0034;
+    height: auto;
+    padding-top: 40px;
 }
 
 .copyright {
@@ -145,47 +152,57 @@ blue {
 .PictureMobile {
     max-width: 100%;
 }
+
+.PictureMobile2 {
+    max-width: 120%;
+}
  /* MOBILE PICTURE RULE ENDS */
+
+
+
+ /* TABLET PICTURE RULE STARTS */
+.PictureMobile2 {
+    max-width: 120%;
+}
+ /* TABLET PICTURE RULE ENDS */
 
 
 
 /*BOTTOM SITEMAP STARTS*/
 .dropbtn {
-        background:none;
-        color: white;
-        font-size: 12pt;
-        font-weight:bold;
-        border: none;
-        cursor: pointer;
-    }
+    background:none;
+    color: white;
+    font-size: 12pt;
+    font-weight:bold;
+    border: none;
+    cursor: pointer;
+}
 
-    dropbtn:hover, .dropbtn:focus {
-        background: none;
-        outline:none;
-    }
+dropbtn:hover, .dropbtn:focus {
+    background: none;
+    outline:none;
+}
+    
+.dropdown-content {
+    display: none;
+    position: relative;
+    background:none;
+    min-width: 160px;
+    z-index: 1;
+}
+    
+.dropdown-content a {
+    color: white;
+    font-size: 11pt;
+    text-decoration: none;
+    display: block;
+}
 
-    dropdown {
-        position: relative;
-        display: inline-block;
-    }
+.dropdown-content a:hover {
+    background:none
+}
     
-    .dropdown-content {
-        display: none;
-        position: relative;
-        background:none;
-        min-width: 160px;
-        z-index: 1;
-    }
-    
-    .dropdown-content a {
-        color: white;
-        font-size: 11pt;
-        text-decoration: none;
-        display: block;
-    }
-    
-    
-    .dropdown-content a:hover {background:none}
-    
-    .show {display:block;}
+.show {
+    display:block;
+}
 /*BOTTOM SITEMAP ENDS
