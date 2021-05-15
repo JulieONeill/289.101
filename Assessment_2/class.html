@@ -64,46 +64,35 @@
         x.style.display = "block";
         }
         }
-   
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content*/
-    function myFunction(Contact) {
-    document.getElementById("ContactDropdown").classList.toggle("show");
+        
+   //FUNCTION RULE FOR SITEMAP STARTS
+    function myFunction1() {
+    document.getElementById("myDropdown1").classList.toggle("show");
     }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-    if (!event.target.matches('.Contact')) {
-    var dropdowns = document.getElementsByClassName("Contact-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.classList.contains('show')) {
-    openDropdown.classList.remove('show');
+        
+    function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
     }
-    }
-    }
-    }
+        
+     function myFunction3() {
+    document.getElementById("myDropdown3").classList.toggle("show");
+    }   
     
-      /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content*/
-    function myFunction(Privacy) {
-    document.getElementById("PrivacyDropdown").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
-    if (!event.target.matches('.Privacy')) {
-    var dropdowns = document.getElementsByClassName("Privacy-content");
+    if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.classList.contains('show')) {
-    openDropdown.classList.remove('show');
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
     }
     }
     }
     }
+    //FUNCTION RULE FOR SITEMAP ENDS
+    
     </script>      
             
     
@@ -193,45 +182,38 @@
                 <div class="d-none d-sm-none d-md-block col-md-4 NavItem"> Item Nine </div>
             </div>
             
-            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none Contact">
-                <button onclick="myFunction()" class="Contact">Dropdown</button>
-                <div id="ContactDropdown" class="Contact-content">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div><br><br>
-            
-             
-            
-             <!--  <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none TandCs">
-                <button onclick="myFunction()" class="TandCs">Dropdown</button>
-                <div id="TandCsDropdown" class="TandCs-content">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div><br><br>-->
-            
 
-            
-            
-            
-            
-            
+            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+          <button onclick="myFunction1()" class="dropbtn">Contact</button>
+         <div id="myDropdown1" class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+        </div>
+       </div><br><br>
+
+        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+          <button onclick="myFunction2()" class="dropbtn">Privacy</button>
+         <div id="myDropdown2" class="dropdown-content">
+           <a href="#">Link- 4</a>
+           <a href="#">Link- 5</a>
+           <a href="#">Link- 6</a>
+        </div>
+       </div><br><br>
+             
+         <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+          <button onclick="myFunction3()" class="dropbtn">Ts &amp; Cs</button>
+         <div id="myDropdown3" class="dropdown-content">
+           <a href="#">Link- 7</a>
+           <a href="#">Link- 8</a>
+           <a href="#">Link- 9</a>
+        </div>
+       </div><br><br>     
+
         </div>
     </div>
     
-    <div class="row">
-      <!--  <div class="col-12 col-md-12 col-lg-12 col-xl-12 Sitemap"><div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none Privacy">
-                <button onclick="myFunction()" class="Privacy">Dropdown</button>
-                <div id="PrivacyDropdown" class="Privacy-content">
-                    <a href=class.html>Home</a>
-                    <a href="event.html">About</a>
-                    <a href="trip.html">Contact</a>
-                </div>
-            </div><br><br></div>-->
-    </div>
+
     
     <div class="row">
         <div class="col-12 col-md-12 col-lg-12 col-xl-12 copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>

@@ -99,9 +99,8 @@ blue {
 .SiteMap {
     text-align: center;
     background-color: #8c0034;
-    height: 400px;
+    height: auto;
     padding-top: 40px;
-    padding-bottom: 100px;
 }
 
 .NavHeader {
@@ -127,6 +126,7 @@ blue {
  /* BOX RULES ENDS */
 
 
+
  /* MOBILE PICTURE RULE STARTS */
 .card-img-overlay{
     margin-left: 10px;
@@ -147,128 +147,45 @@ blue {
 }
  /* MOBILE PICTURE RULE ENDS */
 
+
+
 /*BOTTOM SITEMAP STARTS*/
-.Contact {
-    background: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
+.dropbtn {
+        background:none;
+        color: white;
+        font-size: 12pt;
+        font-weight:bold;
+        border: none;
+        cursor: pointer;
+    }
 
-.Contact:hover, .Contact:focus {
-    background: none;
-    outline: none;
-}
+    dropbtn:hover, .dropbtn:focus {
+        background: none;
+        outline:none;
+    }
 
-.Contact {
-    position: relative;
-    display: inline-block;
-    border: none;
-}
-
-.Contact-content {
-    display: none;
-    position: relative;
-    background: none;
-    min-width: 160px;
-    overflow: auto;
-    z-index: 1;
-}
-
-.Contact-content a {
-    color: yellow;
-    background-color: #8c0034;
-    text-decoration: none;
-    display: block;
-     border: none;
-}
-
-.Contact a:hover {
-    background-color: #8c0034;
-     border: none;
-}
- 
-.Privacy {
-    background: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.Privacy:hover, .Privacy:focus {
-    background: none;
-    outline: none;
-}
-
-.Privacy {
-    position: relative;
-    display: inline-block;
-    border: none;
-}
-
-.Privacy-content {
-    display: none;
-    position: relative;
-    background: none;
-    min-width: 160px;
-    overflow: auto;
-    z-index: 1;
-}
-
-.Privacy-content a {
-    color: black;
-    background-color: #8c0034;
-    text-decoration: none;
-    display: block;
-     border: none;
-}
-
-.Privacy a:hover {
-    background-color: #8c0034;
-     border: none;
-}
-
-.TandCs {
-    background: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.TandCs:hover, .TandCs:focus {
-    background: none;
-    outline: none;
-}
-
-.TandCs {
-    position: relative;
-    display: inline-block;
-    border: none;
-}
-
-.TandCs-content {
-    display: none;
-    position: relative;
-    background: none;
-    min-width: 160px;
-    overflow: auto;
-    z-index: 1;
-}
-
-.TandCs-content a {
-    color: yellow;
-    background-color: #8c0034;
-    text-decoration: none;
-    display: block;
-     border: none;
-}
-
-.TandCs a:hover {
-    background-color: #8c0034;
-     border: none;
-}
-.show {
-    display: block;
-     border: none;
-}
+    dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background:none;
+        min-width: 160px;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        font-size: 11pt;
+        text-decoration: none;
+        display: block;
+    }
+    
+    
+    .dropdown-content a:hover {background:none}
+    
+    .show {display:block;}
 /*BOTTOM SITEMAP ENDS
