@@ -103,6 +103,11 @@
     height: auto;
 } 
 
+.PictureBoxLG {
+    padding-bottom: 15px;
+    background-color: #fffef6;
+    height: auto;
+} 
 .NavHeader {
     color: white;
     font-weight: bold;
