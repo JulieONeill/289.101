@@ -50,24 +50,25 @@
 <body>
 
     <div id="controls">
-        <button id="eyes_up_btn">move eyes up</button>
-        <button id="eyes_down_btn">move eyes down</button>
-        <button id="move_eyes_closer-together_btn">move eyes closer together</button>
-        <button id="move_eyes_apart_btn">move eyes further apart</button>
-        <button>hollow eyes</button>
-        <button>solid eyes</button>
-        <button>no right eye</button>
-        <button>move mouth up</button>
-        <button>move mouth down</button>
-        <button>happy mouth</button>
-        <button>sad mouth</button>
-        <button>reset face</button>
+        <button id='eyes_up_btn'>move eyes up</button>
+        <button id='eyes_down_btn'>move eyes down</button>
+        <button id='move_eyes_closer-together_btn'>move eyes closer together</button>
+        <button id='move_eyes_apart_btn'>move eyes further apart</button>
+        <button id='hollow_eyes_btn'>hollow eyes</button>
+        <button id='solid_eyes_btn'>solid eyes</button>
+        <button id='no_right_eye_btn'>no right eye</button>
+        <button id='move_mouth_up_btn'>move mouth up</button>
+        <button id='move_mouth_down_btn'>move mouth down</button>
+        <button id='happy_mouth_btn'>happy mouth</button>
+        <button id='sad_mouth_btn'>sad mouth</button>
+        <button id='reset_face_btn'>reset face</button>
     </div>
 
     <div id="face">
         <img id="eye_left" src="eye_solid.svg" />
         <img id="eye_right" src="eye_solid.svg" />
         <img id="mouth" src="mouth_happy.svg" />
+       
     </div>
 
     <script>
@@ -76,12 +77,16 @@
         var eye_left_y = 100;
         var eye_right_x = 250;
         var eye_right_y = 100;
+        var mouth_x = 100;
+        var mouth_y = 220;
 
         // set initial positions
         document.getElementById('eye_left').style.left = eye_left_x + 'px';
         document.getElementById('eye_left').style.top = eye_left_y + 'px';
         document.getElementById('eye_right').style.left = eye_right_x + 'px';
         document.getElementById('eye_right').style.top = eye_right_y + 'px';
+        document.getElementById('mouth').style.left = mouth_x + 'px';
+        document.getElementById('mouth').style.top = mouth_y + 'px';
 
         // move eyes up event listener
         document.getElementById('eyes_up_btn').addEventListener('click', () => {
@@ -94,25 +99,62 @@
         document.getElementById('eyes_down_btn').addEventListener('click', () => {
             eye_left_y += 10;
             document.getElementById('eye_left').style.top = eye_left_y + 'px';
-            eye_right_x += 10;
+            eye_right_y += 10;
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
         
-     document.getElementById('move_eyes_closer-together_btn').addEventListener('click', () => {
+        document.getElementById('move_eyes_closer-together_btn').addEventListener('click', () => {
             eye_left_x += 5;
             document.getElementById('eye_left').style.left = eye_left_x + 'px';
             eye_right_x -= 5;
             document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
-         document.getElementById('move_eyes_apart_btn').addEventListener('click', () => {
+        
+        document.getElementById('move_eyes_apart_btn').addEventListener('click', () => {
             eye_left_x -= 5;
             document.getElementById('eye_left').style.left = eye_left_x + 'px';
             eye_right_x += 5;
             document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
+                
+        document.getElementById('hollow_eyes_btn').addEventListener('click', () => {
+            document.getElementById('eye_left').src = "eye_hollow.svg";
+            document.getElementById('eye_right').src = "eye_hollow.svg";
+        });   
+            
+          document.getElementById('solid_eyes_btn').addEventListener('click', () => {
+            document.getElementById('eye_left').src = "eye_solid.svg";
+            document.getElementById('eye_right').src = "eye_solid.svg";
+        }); 
         
-        document.getElementById('move_eyes_apart_btn') 
+         document.getElementById('no_right_eye_btn').addEventListener('click', () => {
+            document.getElementById('eye_right').style.display = 'none';
+        });      
+        
+        
+       document.getElementById('move_mouth_up_btn').addEventListener('click', () => {
+            mouth_y -= 10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
         });
+        
+        document.getElementById('move_mouth_down_btn').addEventListener('click', () => {
+            mouth_y += 10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+        });
+        
+        document.getElementById('happy_mouth_btn').addEventListener('click', () => {
+            document.getElementById('mouth').src = "mouth_happy.svg";
+        }); 
+        
+       document.getElementById('sad_mouth_btn').addEventListener('click', () => {
+            document.getElementById('mouth').src = "mouth_sad.svg";
+        }); 
+         
+        
+       document.getElementById('reset_face_btn').addEventListener('click', () => {
+            
+        }); 
+         
         
     </script>
 
