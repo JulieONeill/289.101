@@ -100,9 +100,18 @@
         
      document.getElementById('move_eyes_closer-together_btn').addEventListener('click', () => {
             eye_left_x += 5;
-            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            document.getElementById('eye_left').style.left = eye_left_x + 'px';
             eye_right_x -= 5;
-            document.getElementById('eye_right').style.top = eye_right_x + 'px';
+            document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        });
+         document.getElementById('move_eyes_apart_btn').addEventListener('click', () => {
+            eye_left_x -= 5;
+            document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            eye_right_x += 5;
+            document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        });
+        
+        document.getElementById('move_eyes_apart_btn') 
         });
         
     </script>
