@@ -44,9 +44,26 @@ function checkCollision() {
 
 function checkBorder (){
     if (puck_x <=0){
-        console.log('border')
-        puck_x == 600 + 'px'
-            }}
+        puck.style.left = 599 + 'px';
+        puck_x = 599;
+    }
+         
+    if (puck_x >=600){
+        puck.style.left = 1 + 'px';
+        puck_x = 1;
+            }
+    
+    if (puck_y <=0){
+        puck.style.top = 399 + 'px';
+        puck_y = 399;
+            }
+    
+    if (puck_y >=400){
+        puck.style.top = 1 + 'px';
+        puck_y = 1;
+            }
+}
+
  
 puck.style.top = puck_y + 'px';
 puck.style.left = puck_x + 'px';
