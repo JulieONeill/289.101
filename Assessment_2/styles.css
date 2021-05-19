@@ -52,11 +52,17 @@
 }
 
 .Navigation {
-    padding: 0px;
-    background-color: red;
-    height: 100px;
-    padding-left: 30px;  
-    padding-top: 100;
+    background-color: darkblue;
+    height: 70px;
+    padding-top: 30px;
+    text-align: right; 
+}
+
+.Navigation a {
+    font-size: 12pt;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 .PageTitle {
@@ -85,17 +91,17 @@
 
 .IntroText {
     background-color: #fffef6;
-    height: 260px;
-    font-size: 11spt;
-    padding-bottom: 50px;
+    height: 240px;
+    font-size: 11pt;
+    padding-top: 10px;
 }
 
-.IntroText2 {
+.IntroTablet {
     padding-bottom: 230px;
-    background-color: #fffef6;
+    background-color: red;
     height: 320px;
     font-size: 11pt;
-} 
+}
 
 .PictureBox {
     padding-bottom: 15px;
@@ -108,16 +114,16 @@
     background-color: #fffef6;
     height: auto;
 } 
-.NavHeader {
+.SiteMapHeader {
     color: white;
     font-weight: bold;
-    text-align: left
+    text-align: center;
 }
 
-.NavItem {
+.SiteMapItem {
     font-size: 11pt; 
-    color: white;
-    text-align: left
+    color: white;  
+    text-align: left;
 }
 
 .SiteMap {
@@ -143,6 +149,7 @@
 .card-img-overlay{
     margin-left: 10px;
 }
+
 .text-color {
     font-size: 15pt;
     Color: #000;
@@ -159,7 +166,9 @@
 }
 
 .PictureTablet {
-    max-width: 120%;
+    height: 260px;
+    width: 335px;
+    object-fit: cover;
 }
 
 .PictureLG {
