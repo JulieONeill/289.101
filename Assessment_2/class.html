@@ -37,20 +37,14 @@
 
     /* md devices */
     @media (min-width: 768px) {
-    body { background-color: yellow }    
-    .PictureBox {
-        padding-top: 5px; 
-        background-color: #fffef6;
-        height: 430px;
-    }
-    
-    .SiteMap {
-        
-        height: 250px;
-        padding-top: 50px;
-    }
-        
-    .SiteMapItem {
+    body { background-color: yellow }       
+            
+    SiteMapItem a{
+        font-size: 12pt; 
+        color: Red;  
+        text-align: left;
+        padding-bottom: 100px;
+        text-decoration: none;
         padding-left: 60px;
     }
         
@@ -159,14 +153,21 @@
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 MainContentBOX">
             <div class="row">
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="PictureMobile" src="Photos/1.jpeg">
+                    <img class="PictureMobile" src="Photos/2.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Adults</a>
                     </div>
                 </div>
                 
-                <div class="d-none d-sm-none d-md-block col-md-6 col-lg-4 col-xl-2 PictureBox">
-                    <img class="PictureTablet" src="Photos/1.jpeg">
+                <div class="d-none d-sm-none d-md-block col-md-6 d-lg-none d-xl-nonte PictureBoxLG">
+                    <img class="PictureTablet" src="Photos/2.jpeg">
+                    <div class="card-img-overlay card-inverse">
+                        <a href="#" class="card-link text-color">Adults</a>
+                    </div>
+                </div>
+                
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 col-xl-2 PictureBoxLG">
+                    <img class="PictureDesktop" src="Photos/2.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Adults</a>
                     </div>
@@ -183,10 +184,17 @@
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Kids &amp; Teens</a>
                     </div>
+                </div>  
+                
+                <div class="d-none d-sm-none d-md-block col-md-6 d-lg-none d-xl-nonte PictureBoxLG">
+                    <img class="PictureTablet" src="Photos/3.jpeg">
+                    <div class="card-img-overlay card-inverse">
+                        <a href="#" class="card-link text-color">Kids &amp; Teens</a>
+                    </div>
                 </div>
                 
-                <div class="d-none d-sm-none d-md-block col-md-6 col-lg-4 col-xl-2 PictureBox PictureBox">
-                    <img class="PictureTablet" src="Photos/3.jpeg">
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-8 col-xl-2 PictureBoxLG">
+                    <img class="PictureDesktop" src="Photos/3.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Kids &amp; Teens</a>
                     </div>
@@ -201,66 +209,63 @@
         </div>
     </div>
 
-    <div class="row">
+
         <div class="col-sm-12 col-md-12 col-lg-12 orange">
-            <div class="row"></div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-12 col-xl-12 SiteMap">
             <div class="row">
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapHeader"> Holder Text One </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapHeader"> Holder Text Two </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapHeader"> Holder Text Three </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item One </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Two </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Three </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Four </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Five </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Six </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Seven </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Eight </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 SiteMapItem"> Item Nine </div>
-            </div>
+        <div class="d-col-none d-sm-none d-md-block col-md-12 col-lg-12 col-xl-12 SiteMap">
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapHeader"> Holder Text One </div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapHeader"> Holder Text Two </div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapHeader"> Holder Text Three </div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item One </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Two </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Three </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Four </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Five </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Six </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Seven </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Eight </a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Nine </a></div>
+        
             
-
-            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-          <button onclick="myFunction1()" class="dropbtn">Contact</button>
-         <div id="myDropdown1" class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
-        </div>
-       </div><br><br>
-
-        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-          <button onclick="myFunction2()" class="dropbtn">Privacy</button>
-         <div id="myDropdown2" class="dropdown-content">
-           <a href="#">Link- 4</a>
-           <a href="#">Link- 5</a>
-           <a href="#">Link- 6</a>
-        </div>
-       </div><br><br>
-             
-         <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-          <button onclick="myFunction3()" class="dropbtn">Ts &amp; Cs</button>
-         <div id="myDropdown3" class="dropdown-content">
-           <a href="#">Link- 7</a>
-           <a href="#">Link- 8</a>
-           <a href="#">Link- 9</a>
-        </div>
-       </div><br><br>     
-
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-12 col-xl-12 copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>
-    </div>
     
         
- </div>   
+<div class="col-12 d-md-none d-lg-none d-xl-none ">
+            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+                 <button onclick="myFunction1()" class="dropbtn">Contact</button>
+                 <div id="myDropdown1" class="dropdown-content">
+                   <a href="#">Link 1</a>
+                   <a href="#">Link 2</a>
+                   <a href="#">Link 3</a>
+                </div>
+            </div><br><br>
+
+        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+             <button onclick="myFunction2()" class="dropbtn">Privacy</button>
+             <div id="myDropdown2" class="dropdown-content">
+               <a href="#">Link- 4</a>
+               <a href="#">Link- 5</a>
+               <a href="#">Link- 6</a>
+            </div>
+        </div><br><br>
+             
+         <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+             <button onclick="myFunction3()" class="dropbtn">Ts &amp; Cs</button>
+             <div id="myDropdown3" class="dropdown-content">
+               <a href="#">Link- 7</a>
+               <a href="#">Link- 8</a>
+               <a href="#">Link- 9</a>
+            </div>
+        </div><br><br>     
+
+        </div>
+    </div>
+     </div>
+        </div>
+      
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>
+     </div>
+   </div>
 </body>
     
 </html
