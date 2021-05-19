@@ -65,6 +65,10 @@
     color: white;
 }
 
+.Navigation a:hover {
+    color: yellow;
+}
+
 .CoucouLogoTablet {
     margin-top: -20px;
     float: left;
