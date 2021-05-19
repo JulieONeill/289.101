@@ -101,6 +101,7 @@
 }
 
 .IntroTablet {
+    padding-top: 10px;
     padding-bottom: 230px;
     background-color: #fffef6;
     height: 430px;
@@ -159,7 +160,7 @@
 }
 
 .PictureTablet {
-    height: 310px;
+    height: 340px;
     width: 335px;
     object-fit: cover;
 }
@@ -167,7 +168,7 @@
 .PictureDesktop  {
     height: 400px;
     width: 600px;
-    object-fit: cover;s
+    object-fit: cover;
 }
 
 .PictureDesktopLG  {
