@@ -23,10 +23,8 @@
     "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
             crossorigin="anonymous">
   
-    <style>
-        { outline: white 8px solid }
-        
-    /* MEDIA RULES SARTS */
+    <style>  
+
     /* xs devices */
     body { background-color: red}
 
@@ -38,34 +36,42 @@
     /* md devices */
     @media (min-width: 768px) {
     body { background-color: yellow }       
-            
-    SiteMapItem a{
-        font-size: 12pt; 
-        color: Red;  
-        text-align: left;
-        padding-bottom: 100px;
-        text-decoration: none;
-        padding-left: 60px;
+    .SiteMapBox {
+        height: 280px;  
     }
-        
+    .SiteMapBox a {
+        padding-left: 45px;
+    }
     .PageTitle {
         font-size: 55pt;
         padding-top: 70px;
         padding-bottom: 170px;
     }
- 
     }
 
     /* lg devices */
     @media (min-width: 992px) {
     body { background-color: green }  
+    .SiteMapBox a {
+        padding-left: 85px;
+    }
+    .SiteMapBox {
+        height: 280px;
+    }
     }
 
     /* xl devices */
     @media (min-width: 1200px) {
     body { background-color: blue}
+    .SiteMapBox a {
+        padding-left: 75px;
     }
-    /* MEDIA RULES ENDS */   
+    .SiteMapBox {
+        height: 280px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    }   
 
     </style>
     
@@ -178,7 +184,7 @@
                 
                 <div class="d-none d-xs-none d-md-block col-md-6 col-lg-4 col-xl-2 IntroTablet">Adult Classes - ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. Nullam fringilla magna ut luctus commodo. Integer porta feugiat accumsan.
                 </div>
-                
+        
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
                     <img class="PictureMobile" src="Photos/3.jpeg">
                     <div class="card-img-overlay card-inverse">
@@ -206,66 +212,69 @@
                 <div class="d-none d-xs-none d-md-block col-md-6 col-lg-4 col-xl-2 IntroTablet">Kids and Teens Classes - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. 
                 </div>
             </div>
+            
+            <div class="AdditionalInfoBox">
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo">Price</div>
+                    
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo">Timetable</div>
+
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo">Test</div>
+            </div>
         </div>
     </div>
-
-
-        <div class="col-sm-12 col-md-12 col-lg-12 orange">
-            <div class="row">
-        <div class="d-col-none d-sm-none d-md-block col-md-12 col-lg-12 col-xl-12 SiteMap">
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapHeader"> Holder Text One </div>
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapHeader"> Holder Text Two </div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapHeader"> Holder Text Three </div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item One </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Two </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Three </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Four </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Five </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Six </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Seven </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Eight </a></div>
-                <div class="d-none d-sm-none d-md-block col-md-4  col-lg-4 col-xl-4 SiteMapItem"> <a href="#"> Item Nine </a></div>
-        
-            
     
-        
-<div class="col-12 d-md-none d-lg-none d-xl-none ">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 SiteMapBox">
+            <div class="row" >
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapHeader"> Holder Text One </div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapHeader"> Holder Text Two </div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapHeader"> Holder Text Three </div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item One</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Two</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Three</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Four</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Five</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Six</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Seven</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a class="Item" href="#">Item Eight</a></div>
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4 col-xl-4 SiteMapItem"> <a href="#">Item Nine</a></div>
+            </div>
+
             <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-                 <button onclick="myFunction1()" class="dropbtn">Contact</button>
-                 <div id="myDropdown1" class="dropdown-content">
-                   <a href="#">Link 1</a>
-                   <a href="#">Link 2</a>
-                   <a href="#">Link 3</a>
+                <button onclick="myFunction1()" class="dropbtn">Contact</button>
+                <div id="myDropdown1" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
                 </div>
             </div><br><br>
 
-        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-             <button onclick="myFunction2()" class="dropbtn">Privacy</button>
-             <div id="myDropdown2" class="dropdown-content">
-               <a href="#">Link- 4</a>
-               <a href="#">Link- 5</a>
-               <a href="#">Link- 6</a>
-            </div>
-        </div><br><br>
-             
-         <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-             <button onclick="myFunction3()" class="dropbtn">Ts &amp; Cs</button>
-             <div id="myDropdown3" class="dropdown-content">
-               <a href="#">Link- 7</a>
-               <a href="#">Link- 8</a>
-               <a href="#">Link- 9</a>
-            </div>
-        </div><br><br>     
+            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+                <button onclick="myFunction2()" class="dropbtn">Privacy</button>
+                <div id="myDropdown2" class="dropdown-content">
+                    <a href="#">Link- 4</a>
+                    <a href="#">Link- 5</a>
+                    <a href="#">Link- 6</a>
+                </div>
+            </div><br><br>
 
+            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
+                <button onclick="myFunction3()" class="dropbtn">Ts &amp; Cs</button>
+                <div id="myDropdown3" class="dropdown-content">
+                    <a href="#">Link- 7</a>
+                    <a href="#">Link- 8</a>
+                    <a href="#">Link- 9</a>
+                </div>
+            </div><br><br>
         </div>
     </div>
-     </div>
-        </div>
-      
+    
     <div class="row">
-        <div class="col-12 col-md-12 col-lg-12 col-xl-12 copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>
-     </div>
-   </div>
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 Copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>
+    </div>
+    
+</div>
+    
 </body>
     
 </html

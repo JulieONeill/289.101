@@ -85,7 +85,7 @@
 }
 
 .MainContentBOX {
-    background-color: #ffae2e;
+    background-color: grey;
     height: auto;
 } 
 
@@ -112,6 +112,16 @@
 .PictureBoxLG {
     padding-bottom: 15px;
     background-color: #fffef6;
+    height: auto;
+}
+
+.AdditionalInfoBox {
+    background-color: aqua;
+    height: auto;
+}
+
+.AdditionalInfo {
+    background-color: aqua;
     height: auto;
 }
 /* MAIN CONTENT RULES ENDS */
@@ -162,18 +172,35 @@
     text-align: center;   
 }
 
-SiteMap {
-    text-align: right;
-    background-color: rebeccapurple;
-    height: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
-
+.SiteMapBox a {
+    font-size: 12pt; 
+    color: white;  
+    text-decoration: none;
+        text-align: center;
 }
 
-.copyright {
+.SiteMapItem {
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.SiteMapBox a:hover {
+    color: yellow;
+    background:none
+}
+
+.SiteMapBox {
+    background-color: #8c0034;
+    height: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.Copyright {
     background-color: darkblue;
     padding-top: 3px;
+    margin-right: 100px;
     text-align: right;
     height: 20px;
     color:white;
@@ -187,6 +214,7 @@ SiteMap {
     font-weight:bold;
     border: none;
     cursor: pointer;
+    padding-bottom: 5px;
 }
 
 dropbtn:hover, .dropbtn:focus {
@@ -207,6 +235,7 @@ dropbtn:hover, .dropbtn:focus {
     font-size: 11pt;
     text-decoration: none;
     display: block;
+    padding-bottom: 3px;
 }
 
 .dropdown-content a:hover {
