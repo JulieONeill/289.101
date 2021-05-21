@@ -82,6 +82,7 @@
 .PageTitle {
     color: darkblue;
     font-size: 40pt;
+    font-weight: bold;
     text-align: center;
     padding-top: 30px;
     background-color: #fffef6;
