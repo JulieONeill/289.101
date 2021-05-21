@@ -177,11 +177,30 @@ h5 {
 
 .PictureDesktop  {
     height: 400px;
-    width: 600px;
+    width: 550px;
     object-fit: cover;
 }
 
 .PictureDesktopLG  {
+    height: 500px;
+    width: 700px;
+    object-fit: cover;
+}
+
+.TripPictureTablet {
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.TripPictureDesktop  {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.TripPictureDesktopLG  {
     height: 500px;
     width: 700px;
     object-fit: cover;
