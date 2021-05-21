@@ -24,7 +24,8 @@
             crossorigin="anonymous">
   
     <style>  
-   
+    {outline: 8px red solid}
+        
     /* xs devices */
     body { background-color: red}
 
@@ -170,42 +171,39 @@
         
         <div class="col-sm-12 PageTitle">Trips</div>
     </div>
-
+    
+    
+    
     <div class="row">
+        <div class="col-sm-12 TripSubsection">Upcoming</div>
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 MainContentBOX">
-            <div class="row">
-                <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/1.jpeg">
+            <div class="row"><h4 style="background-color: #8c0034;color: white; padding: 10px;">Upcoming</h4><br>
+                <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TriPictureBoxMobile">
+                    <img class="PictureMobile" src="Photos/1.jpeg">
                     <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Place One</a>
+                        <a href="#" class="card-link text-color">Nice 12-18 June 2021</a>
                     </div>
                 </div>
                 
                 <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
                     <img class="TripPictureTablet" src="Photos/1.jpeg">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Place One</a>
-                    </div>
+                    <a href="#" class="card-link text-color">TWONice 12-18 June 2021</a>
                 </div>
                 
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none PictureBoxDesktop">
                     <img class="TripPictureDesktop" src="Photos/1.jpeg">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Place One</a>
-                    </div>
+                    <div>THREE Nice - 12-18 June 2021</div>
                 </div>
                 
                 <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 PictureBoxDesktop">
                     <img class="TripPictureDesktopLG" src="Photos/1.jpeg">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Place One</a>
-                    </div>
+                    <div>FOUR Nice - 12-18 June 2021</div>
                 </div>
                 
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/4.jpeg">
+                    <img class="PictureMobile" src="Photos/4.jpeg">
                     <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Place Two</a>
+                        <a href="#" class="card-link text-color">FIVE Nice 12-18 June 2021</a>
                     </div>
                 </div>  
                 
@@ -231,7 +229,7 @@
                 </div>
                 
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/5.jpeg">
+                    <img class="PictureMobile" src="Photos/5.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Place Three</a>
                     </div>
@@ -239,7 +237,9 @@
                 
                 <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
                     <img class="TripPictureTablet" src="Photos/5.jpeg">
-                    <div> Place Three</div>
+                    <div class="card-img-overlay card-inverse">
+                        <a href="#" class="card-link text-color">Place Four</a>
+                    </div>
                 </div>
                 
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none PictureBoxDesktop">
@@ -253,8 +253,9 @@
                 </div>
                 
                  <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/6.jpeg">
-                    <div>  Place Four
+                    <img class="PictureMobile" src="Photos/6.jpeg">
+                    <div class="card-img-overlay card-inverse">
+                        <a href="#" class="card-link text-color">Place Four</a>
                     </div>
                 </div>
                 
@@ -280,7 +281,7 @@
                 </div>
                 
                     <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/7.jpeg">
+                    <img class="PictureMobile" src="Photos/7.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Place Five</a>
                     </div>
@@ -308,7 +309,7 @@
                 </div>
                 
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none PictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/8.jpeg">
+                    <img class="PictureMobile" src="Photos/8.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Place Six</a>
                     </div>
@@ -336,29 +337,6 @@
                 </div>
             </div>
             
-            <div class="AdditionalInfoBox">
-                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo"><h3>Prices:</h3><br>
-                <h5>Classes:</h5>
-                <p>Adult classes ipsum dolor sit amet, consectetur adipiscing elit $xxx for 2 hour classes over a 10 week block.</p>
-                    
-                <p>Adult conversation classes varius ultricies nisi quis cursus $xxx for 2 hour classes over a 10 week block.</p>
-                    
-                <p>Kids and teen programmes are ipsum dolor sit amet, consectetur adipiscing elit $xxx for 1 hour classes over a 10 week block.</p>
-                    <br>
-                <h5>Exams:</h5>
-                    <p>A1 - A2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$100</p>
-                    <p>B1 - B2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$120</p>
-                    <p>C1 - C2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$160</p>
-                </div>
-                
-                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo"><h3>Test</h3><br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. 
-                <br><br>
-                Step one: Take the Alliance Française online test 
-                <br><br>
-                Step two: Our pedagogical coordinator will be in contact and have a chat with you to help to choose the best class for you.
-                </div>
-            </div>
         </div>
     </div>
     
