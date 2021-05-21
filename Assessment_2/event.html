@@ -24,7 +24,7 @@
             crossorigin="anonymous">
   
     <style>  
-
+   
     /* xs devices */
     body { background-color: red}
 
@@ -37,7 +37,8 @@
     @media (min-width: 768px) {
     body { background-color: yellow }       
     .SiteMapBox {
-        height: 280px;  
+        height: 350px;
+        padding-top: 90px;
     }
     .SiteMapBox a {
         padding-left: 45px;
@@ -53,10 +54,12 @@
     @media (min-width: 992px) {
     body { background-color: green }  
     .SiteMapBox a {
+        text-align: left;
         padding-left: 85px;
     }
     .SiteMapBox {
-        height: 280px;
+        height: 350px;
+        padding-top: 90px;
     }
     .IntroTablet {
         padding-top: 20px;
@@ -67,10 +70,15 @@
     @media (min-width: 1200px) {
     body { background-color: blue}
     .SiteMapBox a {
-        padding-left: 100px;
+        padding-left: 85px;
     }
+    .SiteMapHeader {
+        padding-left: 90px;
+        text-align: left;   
+    }
+
     .SiteMapBox {
-        height: 280px;
+        height: 350px;
         padding-left: 150px;
         padding-right: 150px;
     }
@@ -236,11 +244,60 @@
             </div>
             
             <div class="AdditionalInfoBox">
-                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo">Price</div>
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo"><h3>Prices:</h3><br>
+                <h5>Classes:</h5>
+                <p>Adult classes ipsum dolor sit amet, consectetur adipiscing elit $xxx for 2 hour classes over a 10 week block.</p>
                     
-                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo">Timetable</div>
-
-                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo">Test</div>
+                <p>Adult conversation classes varius ultricies nisi quis cursus $xxx for 2 hour classes over a 10 week block.</p>
+                    
+                <p>Kids and teen programmes are ipsum dolor sit amet, consectetur adipiscing elit $xxx for 1 hour classes over a 10 week block.</p>
+                    <br>
+                <h5>Exams:</h5>
+                    <p>A1 - A2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$100</p>
+                    <p>B1 - B2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$120</p>
+                    <p>C1 - C2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$160</p>
+                </div>
+                
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo"><h3>Timetable</h3><br>
+                    <table class="table">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfo"><h3>Test</h3><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. 
+                <br><br>
+                Step one: Take the Alliance Française online test 
+                <br><br>
+                Step two: Our pedagogical coordinator will be in contact and have a chat with you to help to choose the best class for you.
+                </div>
             </div>
         </div>
     </div>
