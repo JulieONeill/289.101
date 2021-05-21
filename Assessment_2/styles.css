@@ -80,6 +80,7 @@
 
 /* MAIN CONTENT RULES STARTS */
 .PageTitle {
+    color: darkblue;
     font-size: 40pt;
     text-align: center;
     padding-top: 30px;
@@ -92,6 +93,14 @@
     background-color: #fffef6;
     height: auto;
 } 
+
+h3 {
+    color:darkblue;
+}
+
+h5 {
+    color:red;
+}
 
 .IntroText {
     background-color: #fffef6;
@@ -131,8 +140,8 @@
 }
 
 .AdditionalInfo {
-    background-color: pink;
-    height: 200px;
+    background-color: #fffef6;
+    height: auto;
     padding-bottom: 90px;
 }
 /* MAIN CONTENT RULES ENDS */
