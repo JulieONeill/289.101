@@ -95,11 +95,17 @@
     height: auto;
 } 
 
-h3 {
+h3 /* Trips page */{
     color:darkblue;
+} 
+
+h4 /* Trips page */{
+    margin-bottom: 500px; 
+    background-color: #8c0034;
+    color: white; padding: 5px;
 }
 
-h5 {
+h5 /* Trips page */{
     color:red;
 }
 
@@ -135,6 +141,30 @@ h5 {
     background-color: #fffef6;
     height: auto;
 }
+.TripSubheading{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.TripPictureBoxMobile {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    background-color: #fffef6;
+    height: 350px;
+} 
+
+.PictureBoxTablet {
+    padding-bottom: 15px;
+    background-color: #fffef6;
+    height: auto;
+}
+
+.PictureBoxDesktop {
+    padding-bottom: 90px;
+    background-color: #fffef6;
+    height: auto;
+}
+
 
 .AdditionalInfoBox {
     height: auto;
