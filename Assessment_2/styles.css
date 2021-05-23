@@ -63,6 +63,7 @@
 
 
 /* NAVIGATION TABLET/DESKTOP STARTS */
+
 .Navigation {
     background-color: darkblue;
     height: 70px;
@@ -70,15 +71,23 @@
     text-align: right; 
 }
 
-.Navigation a {
+.Navigation .unselected {
     font-size: 12pt;
     padding-right: 15px;
     text-decoration: none;
     color: white;
 }
 
-.Navigation a:hover {
+.Navigation .unselected:hover {
     color: yellow;
+}
+
+.Navigation .selected {
+    font-size: 12pt;
+    padding-right: 15px;
+    text-decoration: none;
+    color: Yellow;
+    font-weight: 900;
 }
 
 .CoucouLogoTablet {
@@ -288,13 +297,13 @@ h5 /* Trips page */{
 
 .PictureLaptop  {
     height: 400px;
-    width: 550px;
+    width: 100%;
     object-fit: cover;
 }
 
 .PictureDesktop {
     height: 500px;
-    width: 700px;
+    width: 650px;
     object-fit: cover;
 }
 
