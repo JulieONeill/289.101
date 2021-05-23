@@ -78,7 +78,7 @@
 
 
 
-/* MAIN CONTENT RULES STARTS */
+/* HEADING RULES STARTS */
 .PageTitle {
     color: darkblue;
     font-size: 40pt;
@@ -89,11 +89,6 @@
     height: 140px;
     padding-left: 30px; 
 }
-
-.MainContentBOX {
-    background-color: #fffef6;
-    height: auto;
-} 
 
 h3 /* Trips page */{
     color:darkblue;
@@ -109,6 +104,30 @@ h5 /* Trips page */{
     color:red;
 }
 
+.TripSubheading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* HEADING RULES ENDS */
+
+
+
+/* BOX RULES STARTS */
+.MainContentBOX {
+    background-color: #fffef6;
+    height: auto;
+}
+
+.AdditionalInfoBOX {
+    background-color: #fffef6;
+    height: auto;
+    padding-bottom: 90px;
+}
+/* BOX RULES ENDS */
+
+
+
+/* INTRO RULES STARTS */
 .IntroText {
     background-color: #fffef6;
     height: 240px;
@@ -123,7 +142,11 @@ h5 /* Trips page */{
     height: 430px;
     font-size: 12pt;
 }
+/* INTRO RULES ENDS */
 
+
+
+/* PICTURE BOX RULES STARTS*/
 .PictureBoxMobile {
     padding-bottom: 15px;
     background-color: #fffef6;
@@ -142,11 +165,6 @@ h5 /* Trips page */{
     height: auto;
 }
 
-.TripSubheading{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .TripPictureBoxMobile {
     background-color: #fffef6;
     height: 350px;
@@ -158,20 +176,11 @@ h5 /* Trips page */{
 }
 
 .TripPictureBoxDesktop {
-    background-color: red;
+    background-color: #fffef6;
     height: 450px;
 }
+/* PICTURE RULES ENDS*/
 
-.AdditionalInfoBox {
-    height: auto;
-}
-
-.AdditionalInfo {
-    background-color: #fffef6;
-    height: auto;
-    padding-bottom: 90px;
-}
-/* MAIN CONTENT RULES ENDS */
 
 
 
@@ -234,8 +243,8 @@ h5 /* Trips page */{
 }
 
 .TripPictureDesktop  {
-    height: 500px;
-    width: 700px;
+    height: 400px;
+    width: 100%;
     object-fit: cover;
 }
 /* PICTURE RULES STARTS */
