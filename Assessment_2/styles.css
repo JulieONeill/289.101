@@ -42,6 +42,18 @@
     color: white;
 }
 
+.topnav .special {
+    color: yellow;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.topnav .special:hover {
+    background-color: red;
+    color: yellow;
+}
 .active {
     background-color: darkblue;
     color: white;
@@ -73,6 +85,17 @@
     margin-top: -20px;
     float: left;
     width: 118px;
+}
+
+.Navigation .special {
+    font-size: 12pt;
+    padding-right: 15px;
+    text-decoration: none;
+    color: red;
+}
+
+.Navigation .special:hover {
+    color: yellow;
 }
 /* NAVIGATION TABLET/DESKTOP ENDS */
 
