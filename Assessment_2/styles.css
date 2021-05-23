@@ -164,6 +164,11 @@ h5 /* Trips page */{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.Homesubheading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 /* HEADING RULES ENDS */
 
 
@@ -188,6 +193,11 @@ h5 /* Trips page */{
 
 .AdultTimetableBox {
     padding-bottom: 90px;
+}
+
+.HomeSubheadingBox{
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 /* BOX RULES ENDS */
 
