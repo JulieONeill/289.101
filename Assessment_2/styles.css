@@ -141,9 +141,19 @@ h5 /* Trips page */{
     height: auto;
 }
 
-.AdditionalInfoBOX {
+.AdditionalInfoBOXrules {
     background-color: #fffef6;
     height: auto;
+    padding-bottom: 90px;
+}
+
+.KidsTeensBox {
+    background-color: #fffef6;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.AdultTimetableBox {
     padding-bottom: 90px;
 }
 /* BOX RULES ENDS */
@@ -271,6 +281,26 @@ h5 /* Trips page */{
     object-fit: cover;
 }
 /* PICTURE RULES STARTS */
+
+
+.button {
+    background-color: #8c0034; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#Timetable1{
+    padding-top: 10px;    
+}
+
+#Timetable2{
+   padding-top: 10px;   
+}
 
 
 

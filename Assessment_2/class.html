@@ -135,6 +135,22 @@
     }
     //FUNCTION RULE FOR SITEMAP ENDS
     
+    function myFunction4() {
+      var x = document.getElementById("Timetable1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function myFunction5() {
+      var x = document.getElementById("Timetable2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
     </script>      
             
     
@@ -266,44 +282,78 @@
                     <p>C1 - C2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$160</p>
                 </div>
                 
-                  <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none dropdown">
-                <button onclick="myFunction4()" class="dropbtn">Ts &amp; Cs</button>
-                <div id="myDropdown4" class="dropdown-content">
-                    <a href="#">Link- 7</a>
-                    <a href="#">Link- 8</a>
-                    <a href="#">Link- 9</a>
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 KidsTeensBox"><h3>Timetable</h3><br>
+                    <button class="button" onclick="myFunction4()">Kids &amp; Teens Timetable</button>
+                    <div id="Timetable1">
+                        <table class="table">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div><div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfoBOXrules"><h3>Timetable</h3><br>
-                    <table class="table">
-                      <thead class="thead-dark">
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col">Handle</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>@twitter</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdultTimetableBox">
+                    <button class="button" onclick="myFunction5()">Adult Timetable</button>
+                    <div id="Timetable2">
+                        <table class="table">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    
+                    
                 </div>
                 
                 <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdditionalInfoBOXrules"><h3>Test</h3><br>
