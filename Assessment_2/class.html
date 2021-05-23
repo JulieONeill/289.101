@@ -93,15 +93,16 @@
     </style>
     
     <script>
-        function myFunction() {
-        var x = document.getElementById("myLinks");
+    
+    function myFunction0() {
+        var x = document.getElementById("MobileNavigation");
         if (x.style.display === "block") {
         x.style.display = "none";
         } 
         else {
         x.style.display = "block";
         }
-        }
+    }
         
    //FUNCTION RULE FOR SITEMAP STARTS
     function myFunction1() {
@@ -171,14 +172,14 @@
         <div class="col-sm-12 d-md-none d-lg-none d-xl-none mobile-container">
             <div class="topnav">
                 <a href="index.html" class="active"><img class="CoucouLogo" src="LogoDesign/Coucou.png"></a>
-                <div id="myLinks">
+                <div id="MobileNavigation">
                     <a href="class.html">Classes</a>
                     <a href="event.html">Events</a>
                     <a href="trip.html">Trips</a>
                     <a class="special" href="#">Register</a> 
                     <a class="special" href="#">Log in</a> 
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction0()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -274,9 +275,9 @@
                     <p>C1 - C2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$160</p>
                 </div>
                 
-                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 KidsTeensBox"><h3>Timetable</h3><br>
-                    <button class="button" onclick="myFunction4()">Kids &amp; Teens Timetable</button>
-                    <div id="Timetable1">
+                <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 KidsTeensBox"><h3>Timetables</h3><br>
+                    <button class="button" onclick="myFunction4()">Kids &amp; Teens</button>
+                    <div id="Timetable1" style="display:none">
                         <table class="table">
                           <thead class="thead-dark">
                             <tr>
@@ -311,8 +312,8 @@
                 </div>
                 
                 <div class="d-none d-xs-none d-md-none  d-lg-block col-lg-12 col-xl-12 AdultTimetableBox">
-                    <button class="button" onclick="myFunction5()">Adult Timetable</button>
-                    <div id="Timetable2">
+                    <button class="button" onclick="myFunction5()">Adults</button>
+                    <div id="Timetable2" style="display:none">
                         <table class="table">
                           <thead class="thead-dark">
                             <tr>
