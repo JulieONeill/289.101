@@ -99,10 +99,10 @@ h3 /* Trips page */{
     color:darkblue;
 } 
 
-h4 /* Trips page */{
-    margin-bottom: 500px; 
+h4 /* Trips page */{ 
     background-color: #8c0034;
-    color: white; padding: 5px;
+    color: white; 
+    padding: 5px;
 }
 
 h5 /* Trips page */{
@@ -141,30 +141,26 @@ h5 /* Trips page */{
     background-color: #fffef6;
     height: auto;
 }
+
 .TripSubheading{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .TripPictureBoxMobile {
-    padding-top: 0px; 
-    padding-bottom: 0px;
     background-color: #fffef6;
     height: 350px;
-} 
-
-.PictureBoxTablet {
-    padding-bottom: 15px;
-    background-color: #fffef6;
-    height: auto;
 }
 
-.PictureBoxDesktop {
-    padding-bottom: 90px;
+.TripPictureBoxLaptop {
     background-color: #fffef6;
-    height: auto;
+    height: 450px;
 }
 
+.TripPictureBoxDesktop {
+    background-color: red;
+    height: 450px;
+}
 
 .AdditionalInfoBox {
     height: auto;
@@ -188,10 +184,10 @@ h5 /* Trips page */{
     font-size: 15pt;
     Color: #000;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
 }
 
@@ -205,32 +201,39 @@ h5 /* Trips page */{
     object-fit: cover;
 }
 
-.PictureDesktop  {
+.PictureLaptop  {
     height: 400px;
     width: 550px;
     object-fit: cover;
 }
 
-.PictureDesktopLG  {
+.PictureDesktop {
     height: 500px;
     width: 700px;
     object-fit: cover;
 }
 
-.TripPictureTablet {
+.TripPictureMobile {
     height: 300px;
-    width: 600px;
+    width: 100%;
     object-fit: cover;
 }
 
-.TripPictureDesktop  {
+.TripPictureTablet {
     height: 400px;
-    width: 700px;
+    width: 695px;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+
+.TripPictureLaptop  {
+    height: 400px;
+    width: 450px;
     object-fit: cover;
     text-align: center;
 }
 
-.TripPictureDesktopLG  {
+.TripPictureDesktop  {
     height: 500px;
     width: 700px;
     object-fit: cover;
