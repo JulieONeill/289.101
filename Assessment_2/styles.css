@@ -1,4 +1,4 @@
-/* NAVIGATION MOBILE STARTS */
+/* NAVIGATION MOBILE START */
 .mobile-container {
     background-color: darkblue;
     height: auto;
@@ -58,12 +58,11 @@
     background-color: darkblue;
     color: white;
 }
-/* NAVIGATION MOVBILE ENDS */
+/* NAVIGATION MOVBILE END */
 
 
 
-/* NAVIGATION TABLET/DESKTOP STARTS */
-
+/* NAVIGATION TABLET/DESKTOP START */
 .Navigation {
     background-color: darkblue;
     height: 70px;
@@ -106,11 +105,11 @@
 .Navigation .special:hover {
     color: yellow;
 }
-/* NAVIGATION TABLET/DESKTOP ENDS */
+/* NAVIGATION TABLET/DESKTOP END */
 
 
 
-/* HEADING RULES STARTS */
+/* HEADING RULES START */
 .PageTitle {
     color: darkblue;
     font-size: 40pt;
@@ -175,17 +174,7 @@ h4 /* Trips page */{
 h5 /* Trips page */{
     color:red;
 }
-
-.TripSubheading{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.Homesubheading{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-/* HEADING RULES ENDS */
+/* HEADING RULES END */
 
 
 
@@ -210,28 +199,42 @@ h5 /* Trips page */{
 .AdultTimetableBox {
     padding-bottom: 90px;
 }
+.TripSubheadingBox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .HomeSubheadingBox{
-    padding-top: 30px;
-    padding-bottom: 10px;
+    background-color: #fffef6;
+    padding-bottom: 50px;
+}
+.TermDatesBox {
+    background-color: #fffef6;
+    padding-top: 5px;
+}
+
+.SlideshowBOX{
+    background-color: #fffef6;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 /* BOX RULES ENDS */
 
 
 
-/* INTRO RULES STARTS */
+/* INTRO RULES START */
 .IntroText {
     background-color: #fffef6;
     height: 240px;
     font-size: 11pt;
     padding-top: 10px;
 }
-
-/* INTRO RULES ENDS */
-
+/* INTRO RULES END */
 
 
-/* PICTURE BOX RULES STARTS*/
+
+/* PICTURE BOX RULES START */
 .PictureBoxMobile {
     padding-bottom: 15px;
     background-color: #fffef6;
@@ -264,12 +267,11 @@ h5 /* Trips page */{
     background-color: #fffef6;
     height: 450px;
 }
-/* PICTURE RULES ENDS*/
+/* PICTURE BOX RULES END */
 
 
 
-
-/* PICTURE RULES STARTS */
+/* PICTURE RULES START */
 .card-img-overlay{
     margin-left: 10px;
 }
@@ -332,7 +334,13 @@ h5 /* Trips page */{
     width: 100%;
     object-fit: cover;
 }
-/* PICTURE RULES STARTS */
+
+.SlideshowPic {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+/* PICTURE RULES START */
 
 
 
@@ -359,7 +367,7 @@ h5 /* Trips page */{
 
 
 
-/* SITEMAP RULES STARTS */
+/* SITEMAP RULES START */
 .SiteMapHeader {
     font-size: 17px;
     padding-bottom: 10px;
@@ -442,4 +450,4 @@ dropbtn:hover, .dropbtn:focus {
 .show {
     display:block;
 }
-/* SITEMAP RULES ENDS */
+/* SITEMAP RULES END */
