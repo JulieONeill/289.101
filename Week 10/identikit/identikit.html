@@ -68,7 +68,7 @@
         <img id="eye_left" src="eye_solid.svg" />
         <img id="eye_right" src="eye_solid.svg" />
         <img id="mouth" src="mouth_happy.svg" />
-       
+
     </div>
 
     <script>
@@ -95,67 +95,81 @@
             eye_right_y -= 10;
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
-        
+
         document.getElementById('eyes_down_btn').addEventListener('click', () => {
             eye_left_y += 10;
             document.getElementById('eye_left').style.top = eye_left_y + 'px';
             eye_right_y += 10;
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
-        
+
         document.getElementById('move_eyes_closer-together_btn').addEventListener('click', () => {
             eye_left_x += 5;
             document.getElementById('eye_left').style.left = eye_left_x + 'px';
             eye_right_x -= 5;
             document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
-        
+
         document.getElementById('move_eyes_apart_btn').addEventListener('click', () => {
             eye_left_x -= 5;
             document.getElementById('eye_left').style.left = eye_left_x + 'px';
             eye_right_x += 5;
             document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
-                
+
         document.getElementById('hollow_eyes_btn').addEventListener('click', () => {
             document.getElementById('eye_left').src = "eye_hollow.svg";
             document.getElementById('eye_right').src = "eye_hollow.svg";
-        });   
-            
+        });
+
           document.getElementById('solid_eyes_btn').addEventListener('click', () => {
             document.getElementById('eye_left').src = "eye_solid.svg";
             document.getElementById('eye_right').src = "eye_solid.svg";
-        }); 
-        
+        });
+
          document.getElementById('no_right_eye_btn').addEventListener('click', () => {
             document.getElementById('eye_right').style.display = 'none';
-        });      
-        
-        
+        });
+
+
        document.getElementById('move_mouth_up_btn').addEventListener('click', () => {
             mouth_y -= 10;
             document.getElementById('mouth').style.top = mouth_y + 'px';
         });
-        
+
         document.getElementById('move_mouth_down_btn').addEventListener('click', () => {
             mouth_y += 10;
             document.getElementById('mouth').style.top = mouth_y + 'px';
         });
-        
+
         document.getElementById('happy_mouth_btn').addEventListener('click', () => {
             document.getElementById('mouth').src = "mouth_happy.svg";
-        }); 
-        
+        });
+
        document.getElementById('sad_mouth_btn').addEventListener('click', () => {
             document.getElementById('mouth').src = "mouth_sad.svg";
-        }); 
-         
-        
+        });
+
+
        document.getElementById('reset_face_btn').addEventListener('click', () => {
-            
-        }); 
-         
-        
+         eye_left_x = 100;
+         eye_left_y = 100;
+         eye_right_x = 250;
+         eye_right_y = 100;
+         mouth_x = 100;
+         mouth_y = 220;
+         document.getElementById('eye_right').style.display = 'block';
+         document.getElementById('eye_left').style.left = eye_left_x + 'px';
+         document.getElementById('eye_right').style.left = eye_right_x + 'px';
+         document.getElementById('eye_left').style.top = eye_left_y + 'px';
+         document.getElementById('eye_right').style.top = eye_right_y + 'px';
+         document.getElementById('eye_left').src = "eye_solid.svg";
+         document.getElementById('eye_right').src = "eye_solid.svg";
+         document.getElementById('mouth').style.top = mouth_y + 'px';
+         document.getElementById('mouth').src = "mouth_happy.svg";
+        });
+
+
     </script>
 
 </body>
