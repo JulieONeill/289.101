@@ -273,6 +273,7 @@ h5 /* Trips page */{
 /* PICTURE RULES START */
 .card-img-overlay{
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .text-color {
