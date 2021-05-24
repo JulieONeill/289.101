@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <html>
-    
-    
+
+
 <head>
 
     <meta charset="utf-8" />
@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="Bootstrap_copy/css/bootstrap.min.css" />
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <link rel="stylesheet" href="styles.css"/>
 
     <link href=
@@ -22,16 +22,16 @@
             rel="stylesheet" integrity=
     "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
             crossorigin="anonymous">
-  
-    <style>  
+
+    <style>
     {outline: 2px grey solid}
-        
+
     /* xs devices */
     body { background-color: red}
 
     /* sm devices */
     @media (min-width: 576px) {
-    body { background-color: orange } 
+    body { background-color: orange }
     .TripPictureBoxMobile {
         background-color: #fffef6;
         height: 340px;
@@ -43,7 +43,7 @@
 
     /* md devices */
     @media (min-width: 768px) {
-    body { background-color: yellow }       
+    body { background-color: yellow }
     .SiteMapBox {
         height: 350px;
         padding-top: 90px;
@@ -63,7 +63,7 @@
 
     /* lg devices */
     @media (min-width: 992px) {
-    body { background-color: green }  
+    body { background-color: green }
     .SiteMapBox a {
         text-align: left;
         padding-left: 85px;
@@ -90,7 +90,7 @@
     }
     .SiteMapHeader {
         padding-left: 90px;
-        text-align: left;   
+        text-align: left;
     }
 
     .SiteMapBox {
@@ -99,7 +99,7 @@
         padding-right: 150px;
     }
     .IntroTablet {
-        padding-top: 50px; 
+        padding-top: 50px;
         padding-left: 30px;
         padding-right: 80px;
         height: 530px;
@@ -109,35 +109,35 @@
         padding-right: 200px;
         height: 170px;
     }
-    }   
+    }
 
     </style>
-    
+
     <script>
-    
+
     function myFunction0() {
         var x = document.getElementById("MobileNavigation");
         if (x.style.display === "block") {
         x.style.display = "none";
-        } 
+        }
         else {
         x.style.display = "block";
         }
     }
-        
+
    //FUNCTION RULE FOR SITEMAP STARTS
     function myFunction1() {
     document.getElementById("myDropdown1").classList.toggle("show");
     }
-        
+
     function myFunction2() {
     document.getElementById("myDropdown2").classList.toggle("show");
     }
-        
+
      function myFunction3() {
     document.getElementById("myDropdown3").classList.toggle("show");
-    }   
-    
+    }
+
     window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
 
@@ -152,19 +152,19 @@
     }
     }
     //FUNCTION RULE FOR SITEMAP ENDS
-    
-    </script>      
+
+    </script>
 
 </head>
-    
+
 <body>
-    
+
 <div class="container">
     <div class="row">
         <div class="d-none d-sm-none d-md-block col-xl-12 Navigation">
             <a class="logo" href="index.html"><img class="CoucouLogoTablet" src="LogoDesign/Coucou.png"></a>
-       s
-        
+        </div>
+
         <div class="col-sm-12 d-md-none d-lg-none d-xl-none mobile-container">
             <div class="topnav">
                 <a href="index.html" class="active"><img class="CoucouLogo" src="LogoDesign/Coucou.png"></a>
@@ -172,185 +172,186 @@
                     <a href="class.html">Classes</a>
                     <a href="event.html">Events</a>
                     <a href="trip.html">Trips</a>
-                    <a class="special" href="#">Register</a> 
-                <a class="special" href="#">Log in</a> 
+                    <a class="special" href="#">Register</a>
+                <a class="special" href="#">Log in</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction0()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
         </div>
-        
-        <div class="col-sm-12 PageTitle">Social Activities</div>
-    </div>
 
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 MainContentBOX">
-            <div class="row">
-                <div class="col-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 IntroText">Adult Classes - ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. Nullam fringilla magna ut luctus commodo. Integer porta feugiat accumsan.
-                </div>
-                
-                <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/9.jpeg">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">High Tea Events</a>
-                    </div>
-                </div>
-                
-                <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
-                    <img class="TripPictureTablet" src="Photos/9.jpeg">
-                        <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">High Tea  Events</a>
-                    </div>
-                </div>
-                
-                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
-                    <img class="TripPictureLaptop" src="Photos/9.jpeg">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">High Tea Events</a>
-                    </div>
-                </div>
-                
-                <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
-                    <img class="TripPictureDesktop" src="Photos/9.jpeg">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">High Tea Events</a>
-                    </div>
-                </div>
-                
-               <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
-                    <img class="TripPictureMobile" src="Photos/10.png">
-                    <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Coffee Events</a>
-                    </div>
-                </div>
-                
-                <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
-                    <img class="TripPictureTablet" src="Photos/10.png">
-                        <div class="card-img-overlay card-inverse">
-                        <a href="#" class="card-link text-color">Coffee Events</a>
-                    </div>
-                </div>
-                
+
+        <div class="col-sm-12 PageTitle">Social Activities</div>
+</div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 MainContentBOX">
+              <div class="row">
+                  <div class="col-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 IntroText">Adult Classes - ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius ultricies nisi quis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum blandit tortor, fringilla bibendum dui mattis et. Donec quis metus vitae est eleifend feugiat. Suspendisse molestie tristique urna, molestie vehicula nunc ultrices et. Quisque accumsan in turpis sit amet luctus. Praesent sit amet aliquam arcu, at semper turpis. Sed mollis quis magna quis convallis. Nullam fringilla magna ut luctus commodo. Integer porta feugiat accumsan.
+                  </div>
+
+                  <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
+                      <img class="TripPictureMobile" src="Photos/9.jpeg">
+                      <div class="card-img-overlay card-inverse">
+                          <a href="#" class="card-link text-color">High Tea Events</a>
+                      </div>
+                  </div>
+
+                  <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
+                      <img class="TripPictureTablet" src="Photos/9.jpeg">
+                      <div class="card-img-overlay card-inverse">
+                          <a href="#" class="card-link text-color">High Tea  Events</a>
+                      </div>
+                  </div>
+
+                  <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
+                      <img class="TripPictureLaptop" src="Photos/9.jpeg">
+                      <div class="card-img-overlay card-inverse">
+                          <a href="#" class="card-link text-color">High Tea Events</a>
+                      </div>
+                  </div>
+
+                  <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
+                      <img class="TripPictureDesktop" src="Photos/9.jpeg">
+                      <div class="card-img-overlay card-inverse">
+                          <a href="#" class="card-link text-color">High Tea Events</a>
+                      </div>
+                  </div>
+
+                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
+                      <img class="TripPictureMobile" src="Photos/10.png">
+                      <div class="card-img-overlay card-inverse">
+                          <a href="#" class="card-link text-color">Coffee Events</a>
+                      </div>
+                  </div>
+
+                  <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
+                      <img class="TripPictureTablet" src="Photos/10.png">
+                      <div class="card-img-overlay card-inverse">
+                          <a href="#" class="card-link text-color">Coffee Events</a>
+                  </div>
+            </div>
+
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
                     <img class="TripPictureLaptop" src="Photos/10.png">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Coffee Events</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
                     <img class="TripPictureDesktop" src="Photos/10.png">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Coffee Events</a>
                     </div>
-                </div> 
-                
+                </div>
+
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
                     <img class="TripPictureMobile" src="Photos/11.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Crepes Breakfasts</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
                     <img class="TripPictureTablet" src="Photos/11.jpeg">
                         <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Crepes Breakfasts</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
                     <img class="TripPictureLaptop" src="Photos/11.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Crepes Breakfasts</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
                     <img class="TripPictureDesktop" src="Photos/11.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Crepes Breakfasts</a>
                     </div>
                 </div>
-                
+
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
                     <img class="TripPictureMobile" src="Photos/12.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Movie Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
                     <img class="TripPictureTablet" src="Photos/12.jpeg">
                         <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Movie Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
                     <img class="TripPictureLaptop" src="Photos/12.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Movie Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
                     <img class="TripPictureDesktop" src="Photos/12.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Movie Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
                     <img class="TripPictureMobile" src="Photos/13.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Game Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
                     <img class="TripPictureTablet" src="Photos/13.jpeg">
                         <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Game Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
                     <img class="TripPictureLaptop" src="Photos/13.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Game Nights</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
                     <img class="TripPictureDesktop" src="Photos/13.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Game Nights </a>
                     </div>
                 </div>
-                
+
                   <div class="col-12 col-xs-12 d-md-none d-lg-none d-xl-none TripPictureBoxMobile">
                     <img class="TripPictureMobile" src="Photos/14.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Cooking Classes</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-block col-md-12 d-lg-none d-xl-nonte PictureBoxTablet">
                     <img class="TripPictureTablet" src="Photos/14.jpeg">
                         <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Cooking Classes</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 d-xl-none TripPictureBoxLaptop">
                     <img class="TripPictureLaptop" src="Photos/14.jpeg">
                     <div class="card-img-overlay card-inverse">
                         <a href="#" class="card-link text-color">Cooking Classes</a>
                     </div>
                 </div>
-                
+
                 <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-6 TripPictureBoxDesktop">
                     <img class="TripPictureDesktop" src="Photos/14.jpeg">
                     <div class="card-img-overlay card-inverse">
@@ -359,8 +360,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+</div>
+
     <div class="row">
         <div class="col-12 col-md-12 col-lg-12 col-xl-12 SiteMapBox">
             <div class="row" >
@@ -406,13 +407,14 @@
             </div><br><br>
         </div>
     </div>
-    
+
     <div class="row">
         <div class="col-12 col-md-12 col-lg-12 col-xl-12 Copyright"><span>&#169;</span>&nbsp;Coucou 2021</div>
     </div>
-    
 </div>
-    
+
+</div>
+</div>
 </body>
-    
+
 </html
