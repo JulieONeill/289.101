@@ -506,11 +506,19 @@ font-weight:600;
     text-align: center;   
 }
 
+.SiteMapBox {
+    background-color: #8c0034;
+    height: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
 .SiteMapBox a {
     font-size: 12pt; 
     color: white;  
     text-decoration: none;
-        text-align: center;
+    text-align: center;
 }
 
 .SiteMapItem {
@@ -523,13 +531,6 @@ font-weight:600;
     background:none
 }
 
-.SiteMapBox {
-    background-color: #8c0034;
-    height: 300px;
-    text-align: center;
-    padding-top: 70px;
-}
-
 .dropbtn {
     background:none;
     color: white;
@@ -540,7 +541,7 @@ font-weight:600;
     padding-bottom: 5px;
 }
 
-dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover, .dropbtn:focus {
     background: none;
     outline:none;
 }
@@ -593,14 +594,15 @@ dropbtn:hover, .dropbtn:focus {
 
 .fa {
     padding: 10px;
-    font-size: 30px;
-    width: 60px;
+    font-size: 20px;
+    width: 45px;
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
+    border-radius: 50%;
     border: 2px solid #fffef6;
 }
-
+    
 .fa:hover {
     opacity: 0.5;
     text-decoration: none;
