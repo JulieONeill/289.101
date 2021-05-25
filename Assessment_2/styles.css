@@ -248,17 +248,17 @@ h5 {
 }
 
 .TripPictureBoxMobile {
-    background-color: red;
+    background-color: #fffef6;
     height: 350px;
 }
 
 .TripPictureBoxLaptop {
-    background-color: palevioletred;
+    background-color: #fffef6;
     height: 450px;
 }
 
 .TripPictureBoxDesktop {
-    background-color: gold;
+    background-color: #fffef6;
     height: 450px;
 }
 /* PICTURE BOX RULES END */
