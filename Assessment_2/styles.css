@@ -118,21 +118,14 @@ topnav {
     background-color: #fffef6;
     height: 140px;
 }
-
-.ClassPageTitle {
-    color: darkblue;
-    font-size: 40pt;
-    text-align: center;
-    padding-top: 30px;
-    background-color: #fffef6;
-    height: 140px;
-}
-
+ PageIntroText {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 .HomePageTitleSmall {
     color: darkblue;
     font-size: 30pt;
     line-height: 35pt;
-    font-style: italic;
     text-align: center;
     padding-top: 30px;
     background-color: #fffef6;
@@ -141,24 +134,11 @@ topnav {
 
 .HomePageTitleMedium {
     color: darkblue;
-    font-style:italic;
     font-size: 40pt;
-    line-height: 35pt;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 70px;
     background-color: #fffef6;
-    height: 160px;
-}
-
-.HomePageTitleLarge {
-    color: darkblue;
-    font-style:italic;
-    font-size: 40pt;
-    line-height: 35pt;
-    text-align: center;
-    padding-top: 65px;
-    background-color: #fffef6;
-    height: 190px;
+    height: 170px;
 }
 
 h4 { 
@@ -176,7 +156,12 @@ h5 {
     background-color: #fffef6;
     height: 240px;
     font-size: 11pt;
-    padding-top: 10px;
+    
+    padding-bottom: 50px;
+}
+
+.PageIntroText {
+    padding-bottom: 50px;
 }
 /* HEADING RULES END */
 
@@ -193,18 +178,6 @@ h5 {
 .MainContentBOX {
     background-color: #fffef6;
     height: auto;
-}
-
-.PageIntroBoxSmall {
-    background-color: #fffef6;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-.PageIntroBoxLarge {
-    background-color: #fffef6;   
-    padding-top: 20px;
-    padding-bottom: 50px;
 }
 
 .AdditionalInfoBOXrules {
@@ -437,7 +410,7 @@ h5 {
     color: #699bff !important;
 }
 
-.text {
+.SlidshhowText {
     color: #000;
     background-color: white;
     font-size: 15pt;
