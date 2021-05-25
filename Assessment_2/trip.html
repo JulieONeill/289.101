@@ -17,11 +17,19 @@
     
     <link rel="stylesheet" href="styles.css"/>
 
+    <!-- Overlay text on images rule starts -->
     <link href=
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
             rel="stylesheet" integrity=
     "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
             crossorigin="anonymous">
+      <script src=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity=
+    "sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous">
+    </script>
+    <!-- Overlay text on images rule ends -->
   
     <style>  
     {outline: 2px grey solid}
@@ -41,10 +49,7 @@
     /* md devices */
     @media (min-width: 768px) {
     body { background-color: yellow }       
-    .SiteMapBox {
-        height: 350px;
-        padding-top: 90px;
-    }
+    
     .SiteMapBox a {
         padding-left: 45px;
     }
@@ -53,6 +58,10 @@
         padding-top: 70px;
         padding-bottom: 170px;
     }
+    .PageIntroText {
+        padding-left: 100px;
+        padding-right: 100px;
+    }  
     }
 
     /* lg devices */
@@ -63,28 +72,39 @@
         padding-left: 85px;
     }
     .SiteMapBox {
-        height: 350px;
         padding-top: 90px;
     }
+    .IntroTablet {
+        padding-top: 20px;
+    }
+    .PageIntroText {
+        padding-left: 100px;
+        padding-right: 100px;
+    }  
     }
 
-    /* xl devices */
+    /* xl devices - not full screen */
     @media (min-width: 1200px) {
-    body { background-color: blue}
+    body { background-color: pink}
     .SiteMapBox a {
-        padding-left: 85px;
+        padding-left: 115px;
+    }
+    }
+        
+       /* xl devices - full screen*/
+    @media (min-width: 1400px) {
+    body { background-color: blue}  
+  .SiteMapBox a {
+        padding-left: 95px;
     }
     .SiteMapHeader {
-        padding-left: 90px;
-        text-align: left;   
+        text-align: Center;   
     }
-
     .SiteMapBox {
-        height: 350px;
         padding-left: 150px;
         padding-right: 150px;
-    }
-    }   
+    }       
+    }  
 
     </style>
     
@@ -391,6 +411,16 @@
                     <a href="#">Link- 9</a>
                 </div>
             </div><br><br>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 SociaMediaBox">
+            <div class="SocialMediaIcons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
         </div>
     </div>
     

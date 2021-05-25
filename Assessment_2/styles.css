@@ -6,7 +6,7 @@
 
 .CoucouLogoSmall {
     margin-top: -2px;
-    width: 118px;
+    width: 157px;
 }
 
 topnav {
@@ -118,10 +118,7 @@ topnav {
     background-color: #fffef6;
     height: 140px;
 }
- PageIntroText {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
+ 
 .HomePageTitleSmall {
     color: darkblue;
     font-size: 30pt;
@@ -153,7 +150,6 @@ h5 {
 }
 
 .IntroText {
-    background-color: #fffef6;
     height: 240px;
     font-size: 11pt;
     padding-bottom: 50px;
@@ -213,6 +209,11 @@ h5 {
     background-color: #fffef6;
     padding-top: 5px;
     padding-bottom: 30px;
+}
+
+.SociaMediaBox {
+    background-color: #8c0034;
+    padding-bottom: 20px;
 }
 /* BOX RULES ENDS */
 
@@ -524,20 +525,9 @@ font-weight:600;
 
 .SiteMapBox {
     background-color: #8c0034;
-    height: auto;
+    height: 300px;
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 50px;
-}
-
-.Copyright {
-    background-color: darkblue;
-    padding-top: 3px;
-    margin-right: 100px;
-    text-align: right;
-    height: 20px;
-    color:white;
-    font-size: 6pt;
 }
 
 .dropbtn {
@@ -579,4 +569,55 @@ dropbtn:hover, .dropbtn:focus {
 .show {
     display:block;
 }
+
+.Copyright {
+    background-color: darkblue;
+    padding-top: 3px;
+    margin-right: 100px;
+    text-align: right;
+    height: 20px;
+    color:white;
+    font-size: 6pt;
+}
 /* SITEMAP RULES END */
+
+
+
+
+
+/* SOCIAL MEDIA RULES START */
+.SocialMediaIcons {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border: 2px solid #fffef6;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white !important;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white !important;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white !important;
+}
+/* SOCIAL MEDIA RULES END */
