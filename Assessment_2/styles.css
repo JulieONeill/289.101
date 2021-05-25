@@ -39,7 +39,7 @@ topnav {
 
 .topnav a:hover {
     background-color: #8c0034;
-    color: white;
+    color: yellow;
 }
 
 .topnav .special {
@@ -55,6 +55,8 @@ topnav {
     color: yellow;
 }
 /* NAVIGATION MOVBILE END */
+
+
 
 
 
@@ -95,13 +97,15 @@ topnav {
     font-weight: 600;
     padding-right: 15px;
     text-decoration: none;
-    color: #c41059;
+    color: #b2e2f9;
 }
 
 .Navigation .special:hover {
     color: yellow;
 }
 /* NAVIGATION TABLET/DESKTOP END */
+
+
 
 
 
@@ -158,27 +162,49 @@ topnav {
 }
 
 h4 { 
-    background-color: #8c0034;
+    background-color: #699bff;
     color: white; 
     padding: 5px;
+    border-bottom: 10px solid #b3e4fa;
 }
 
 h5 {
     color: darkblue;
 }
+
+.IntroText {
+    background-color: #fffef6;
+    height: 240px;
+    font-size: 11pt;
+    padding-top: 10px;
+}
 /* HEADING RULES END */
 
 
 
+
+
 /* BOX RULES STARTS */
+.LogoBoxSmall {
+    background-color: darkblue;
+    color: white;
+}
+
 .MainContentBOX {
     background-color: #fffef6;
     height: auto;
 }
 
-.LogoBoxSmall {
-    background-color: darkblue;
-    color: white;
+.PageIntroBoxSmall {
+    background-color: #fffef6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.PageIntroBoxLarge {
+    background-color: #fffef6;   
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .AdditionalInfoBOXrules {
@@ -210,29 +236,20 @@ h5 {
     padding-top: 5px;
 }
 
-.SlideshowBOX{
-    background-color: #fffef6;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
 
 /* BOX RULES ENDS */
 
 
 
-/* INTRO RULES START */
-.IntroText {
-    background-color: #fffef6;
-    height: 240px;
-    font-size: 11pt;
-    padding-top: 10px;
-}
-/* INTRO RULES END */
-
 
 
 /* PICTURE BOX RULES START */
+.SlideshowBOX{
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 .PictureBoxMobile {
     padding-bottom: 15px;
     background-color: #fffef6;
@@ -245,27 +262,35 @@ h5 {
     height: auto;
 }
 
+.PictureBoxLaptop {
+    padding-bottom: 50px;
+    background-color: #fffef6;
+    height: auto;
+}
+
 .PictureBoxDesktop {
-    padding-bottom: 90px;
+    padding-bottom: 70px;
     background-color: #fffef6;
     height: auto;
 }
 
 .TripPictureBoxMobile {
-    background-color: #fffef6;
+    background-color: red;
     height: 350px;
 }
 
 .TripPictureBoxLaptop {
-    background-color: #fffef6;
+    background-color: palevioletred;
     height: 450px;
 }
 
 .TripPictureBoxDesktop {
-    background-color: #fffef6;
+    background-color: gold;
     height: 450px;
 }
 /* PICTURE BOX RULES END */
+
+
 
 
 
@@ -304,7 +329,7 @@ h5 {
 
 .PictureDesktop {
     height: 500px;
-    width: 650px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -337,6 +362,8 @@ h5 {
 
 
 
+
+
 /* TIMETABLE BUTTON RULES START */
 .button {
     background-color: darkblue; 
@@ -358,6 +385,8 @@ h5 {
    padding-top: 10px;   
 }
 /* TIMETABLE BUTTON RULES END */
+
+
 
 
 
@@ -405,7 +434,7 @@ h5 {
 
 .prev:hover, .next:hover {
     background-color: yellow;
-    color: darkblue!important;
+    color: #699bff !important;
 }
 
 .text {
@@ -444,6 +473,8 @@ h5 {
     background-color: #717171;
 }
 /*SLIDESHOW RULES END*/
+
+
 
 
 
