@@ -511,13 +511,14 @@ font-weight:600;
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    text-align: center;   
+    text-align: left;
+    padding-right: 20px;
+    
 }
 
 .SiteMapBox {
     background-color: #8c0034;
     height: auto;
-    text-align: center;
     padding-top: 70px;
     padding-bottom: 50px;
 }
@@ -526,7 +527,7 @@ font-weight:600;
     font-size: 12pt; 
     color: white;  
     text-decoration: none;
-    text-align: center;
+
 }
 
 .SiteMapItem {
@@ -597,6 +598,7 @@ font-weight:600;
 /* SOCIAL MEDIA RULES START */
 .SocialMediaIcons {
     text-align: center;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 
