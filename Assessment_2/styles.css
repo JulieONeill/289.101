@@ -425,12 +425,10 @@ h5 {
 }
 
 .SlidshowText {
-    color: #000;s
+    color: #000;
     font-size: 15pt;
-    padding-left: 12px;
+    padding-top: 5px; padding-left: 12px;
     padding-right: 12px;
-    position: ab
-    bottom: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
