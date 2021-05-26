@@ -424,17 +424,16 @@ h5 {
     color: #699bff !important;
 }
 
-.SlidshhowText {
-    color: #000;
-    background-color: white;
+.SlidshowText {
+    color: #000;s
     font-size: 15pt;
     padding-left: 12px;
     padding-right: 12px;
-    position: absolute;
+    position: ab
     bottom: 18px;
-    max-width: 100%;
-    text-align: center;
-    left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .numbertext {
