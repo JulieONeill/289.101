@@ -6,7 +6,7 @@
 
 .CoucouLogoSmall {
     margin-top: -2px;
-    width: 157px;
+    width: 142px;
 }
 
 topnav {
@@ -150,14 +150,23 @@ h5 {
 }
 
 .IntroText {
-    height: 240px;
+    height: auto;
     font-size: 11pt;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
+
+.IntroTablet { 
+    height: auto;
+    font-size: 11pt;
+    padding-bottom: 70px;
+}
+
 
 .PageIntroText {
     padding-bottom: 50px;
 }
+
+.
 /* HEADING RULES END */
 
 
@@ -235,7 +244,7 @@ h5 {
 } 
 
 .PictureBoxTablet {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     background-color: #fffef6;
     height: auto;
 }
@@ -274,7 +283,7 @@ h5 {
 
 /* PICTURE RULES START */
 .card-img-overlay{
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 5px;
 }
 
@@ -295,7 +304,7 @@ h5 {
 
 .PictureTablet {
     height: 340px;
-    width: 335px;
+    width: 695px;
     object-fit: cover;
 }
 
@@ -306,7 +315,7 @@ h5 {
 }
 
 .PictureDesktop {
-    height: 500px;
+    height: 450px;
     width: 100%;
     object-fit: cover;
 }
