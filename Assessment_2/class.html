@@ -47,8 +47,11 @@
     .SiteMapBox {
         height: 250px;
     }
+    .SiteMapHeader {
+        padding-left: 70px;
+    }
     .SiteMapBox a {
-        padding-left: 80px;
+        padding-left: 60px;
     }
     .PageTitle {
         font-size: 55pt;
@@ -60,9 +63,11 @@
     /* lg devices */
     @media (min-width: 992px) {
     body { background-color: green }  
-    .SiteMapBox a {
-        text-align: left;
+    .SiteMapHeader {
         padding-left: 120px;
+    }    
+    .SiteMapBox a {
+        padding-left: 110px;
     }
 
     .PageIntroText {
@@ -74,14 +79,20 @@
    /* xl devices - not full screen */
     @media (min-width: 1200px) {
     body { background-color: pink}
+    .SiteMapHeader {
+        padding-left: 140px;
+    }
     .SiteMapBox a {
-        padding-left: 135px;
+        padding-left: 130px;
     }
     }
         
     /* xl devices - full screen*/
     @media (min-width: 1400px) {
     body { background-color: blue}  
+    .SiteMapHeader {
+        padding-left: 140px;
+    } 
     .SiteMapBox a {
         padding-left: 135px;
     }
