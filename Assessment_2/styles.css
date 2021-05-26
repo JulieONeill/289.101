@@ -521,7 +521,7 @@ font-weight:600;
     height: auto;
     padding-top: 70px;
     padding-bottom: 50px;
-    text-align: center
+    text-align: center;
 }
 
 .SiteMapBox a {
@@ -541,7 +541,6 @@ font-weight:600;
 }
 
 .dropbtn {
-
     background:none;
     color: white;
     font-size: 12pt;
