@@ -540,6 +540,7 @@ font-weight:600;
 }
 
 .dropbtn {
+    padding-left: 70px;
     background:none;
     color: white;
     font-size: 12pt;
@@ -555,6 +556,7 @@ font-weight:600;
 }
     
 .dropdown-content {
+    text-align: center;
     display: none;
     position: relative;
     background:none;
