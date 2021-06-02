@@ -636,3 +636,105 @@ font-weight:600;
   color: white !important;
 }
 /* SOCIAL MEDIA RULES END */
+
+
+
+
+/* SIZE VARIATION RULES START */
+    /* md devices */
+    @media (min-width: 768px) {
+    body { background-color: yellow}
+    .SiteMapBox {
+        background-color: aqua;
+        height: 2050px;
+    }
+    .SiteMapHeader {
+        padding-left: 170px;
+    }
+    .SiteMapBox a {
+        padding-left: 60px;
+    }
+    .PageTitle {
+        font-size: 100pts;
+        padding-top: 70px;
+        padding-bottom: 170px;
+    }
+    .SlideshowPic {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    }
+
+    /* lg devices */
+    @media (min-width: 992px){
+    body { background-color: green }
+    .SiteMapHeader {
+        padding-left: 120px;
+    }    
+    .SiteMapBox a {
+        padding-left: 110px;
+    }
+    .IntroTablet {
+        padding-top: 20px;
+    }
+    .SlideshowPic {
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .PageIntroText {
+        padding-left: 100px;
+        padding-right: 100px;
+    }    
+    .TermDatesBox{
+        padding-left: 110px; 
+        padding-right: 120px;
+    }
+    }
+
+    /* xl devices - not full screen */
+    @media (min-width: 1200px) {
+    body { background-color: pink}
+    .SiteMapHeader {
+        padding-left: 140px;
+    }
+    .SiteMapBox a {
+        padding-left: 130px;
+    }
+    }
+        
+    /* xl devices - full screen*/
+    @media (min-width: 1400px) {
+    body { background-color: blue}  
+    .SiteMapHeader {
+        padding-left: 140px;
+    } 
+    .SiteMapBox a {
+        padding-left: 135px;
+    }
+    .SiteMapBox {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .IntroTablet {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 80px;
+        height: 530px;
+    }
+    .SlideshowPic {
+        height: 650px;
+        width: 100%;
+        object-fit: cover;
+    } 
+    .PageIntroText {
+        padding-left: 200px;
+        padding-right: 200px;
+    } 
+    .TermDatesBox {
+        padding-left: 200px; 
+        padding-right: 220px;    
+    }
+    }
+/* SIZE VARIATION RULES END */
